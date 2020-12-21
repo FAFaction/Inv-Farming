@@ -1,0 +1,1081 @@
+﻿Log file open, 12/15/20 18:34:01
+LogInit: Display: Running engine for game: Inv_Farm
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.383019
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 5 3400G with Radeon Vega Graphics    , GPU: AMD Radeon(TM) RX Vega 11 Graphics
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.12.15-12.34.02:896][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Engine.ini]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Engine.ini]
+[2020.12.15-12.34.02:897][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Engine.ini]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Engine.ini]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.12.15-12.34.02:897][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.12.15-12.34.02:898][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.12.15-12.34.02:898][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.12.15-12.34.02:898][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.12.15-12.34.02:898][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.12.15-12.34.02:898][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.12.15-12.34.02:898][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.12.15-12.34.02:898][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.12.15-12.34.02:898][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.12.15-12.34.02:898][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.12.15-12.34.02:898][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.12.15-12.34.02:898][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.12.15-12.34.02:898][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Engine.ini]
+[2020.12.15-12.34.02:898][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Engine.ini]
+[2020.12.15-12.34.02:903][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-12.34.02:903][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.15-12.34.02:903][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.15-12.34.02:903][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.15-12.34.02:904][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.15-12.34.02:905][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.15-12.34.02:906][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.15-12.34.02:907][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.15-12.34.02:908][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.12.15-12.34.02:909][  0]LogHAL: Display: Platform has ~ 6 GB [6373261312 / 8589934592 / 6], which maps to Smaller [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.12.15-12.34.02:909][  0]LogInit: Going up to parent DeviceProfile []
+[2020.12.15-12.34.02:909][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-12.34.02:909][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2020.12.15-12.34.02:909][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2020.12.15-12.34.02:909][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-12.34.02:909][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2020.12.15-12.34.02:909][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-12.34.02:909][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.12.15-12.34.02:910][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2020.12.15-12.34.02:911][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.15-12.34.02:912][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.12.15-12.34.02:921][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.12.15-12.34.02:921][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.12.15-12.34.02:921][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.12.15-12.34.02:921][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Engine.ini]
+[2020.12.15-12.34.02:927][  0]LogInit: Computer: DESKTOP-TSO8MN9
+[2020.12.15-12.34.02:927][  0]LogInit: User: farha
+[2020.12.15-12.34.02:927][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.12.15-12.34.02:927][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.12.15-12.34.02:928][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2020.12.15-12.34.02:928][  0]LogMemory: Platform Memory Stats for Windows
+[2020.12.15-12.34.02:928][  0]LogMemory: Process Physical Memory: 115.35 MB used, 115.35 MB peak
+[2020.12.15-12.34.02:928][  0]LogMemory: Process Virtual Memory: 104.18 MB used, 104.18 MB peak
+[2020.12.15-12.34.02:928][  0]LogMemory: Physical Memory: 4201.79 MB used,  1876.23 MB free, 6078.02 MB total
+[2020.12.15-12.34.02:928][  0]LogMemory: Virtual Memory: 5153.15 MB used,  134212576.00 MB free, 134217728.00 MB total
+[2020.12.15-12.34.02:935][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.12.15-12.34.03:082][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.12.15-12.34.03:088][  0]LogInit: Using OS detected language (en-US).
+[2020.12.15-12.34.03:088][  0]LogInit: Using OS detected locale (en-US).
+[2020.12.15-12.34.03:109][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.12.15-12.34.03:522][  0]LogInit: Setting process to per monitor DPI aware
+[2020.12.15-12.34.03:642][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.12.15-12.34.03:642][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.12.15-12.34.07:676][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.15-12.34.07:676][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.12.15-12.34.07:676][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.12.15-12.34.07:676][  0]LogD3D11RHI: D3D11 adapters:
+[2020.12.15-12.34.07:721][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) RX Vega 11 Graphics' (Feature Level 11_0)
+[2020.12.15-12.34.07:721][  0]LogD3D11RHI:       2033/0/3039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2020.12.15-12.34.07:724][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.12.15-12.34.07:724][  0]LogD3D11RHI:       0/0/3039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.12.15-12.34.07:724][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.12.15-12.34.07:733][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.12.15-12.34.07:733][  0]LogD3D11RHI:     GPU DeviceId: 0x15d8 (for the marketing name, search the web for "GPU Device Id")
+[2020.12.15-12.34.07:733][  0]LogWindows: EnumDisplayDevices:
+[2020.12.15-12.34.07:734][  0]LogWindows:    0. 'AMD Radeon(TM) RX Vega 11 Graphics' (P:1 D:1)
+[2020.12.15-12.34.07:734][  0]LogWindows:    1. 'AMD Radeon(TM) RX Vega 11 Graphics' (P:0 D:0)
+[2020.12.15-12.34.07:735][  0]LogWindows:    2. 'AMD Radeon(TM) RX Vega 11 Graphics' (P:0 D:0)
+[2020.12.15-12.34.07:736][  0]LogWindows:    3. 'AMD Radeon(TM) RX Vega 11 Graphics' (P:0 D:0)
+[2020.12.15-12.34.07:736][  0]LogWindows:    4. 'AMD Radeon(TM) RX Vega 11 Graphics' (P:0 D:0)
+[2020.12.15-12.34.07:737][  0]LogWindows:    5. 'AMD Radeon(TM) RX Vega 11 Graphics' (P:0 D:0)
+[2020.12.15-12.34.07:738][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2020.12.15-12.34.07:738][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) RX Vega 11 Graphics
+[2020.12.15-12.34.07:738][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 20.11.2 (internal:27.20.14501.18003, unified:27.20.14501.18003)
+[2020.12.15-12.34.07:738][  0]LogD3D11RHI:      Driver Date: 11-13-2020
+[2020.12.15-12.34.07:738][  0]LogRHI: Texture pool is 3195 MB (70% of 4565 MB)
+[2020.12.15-12.34.07:801][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.12.15-12.34.07:801][  0]LogD3D11RHI: Async texture creation enabled
+[2020.12.15-12.34.07:801][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.12.15-12.34.07:848][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.12.15-12.34.08:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.12.15-12.34.08:378][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.12.15-12.34.08:378][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.12.15-12.34.08:378][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.12.15-12.34.08:378][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.12.15-12.34.08:378][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.12.15-12.34.08:378][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.12.15-12.34.08:378][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.12.15-12.34.08:378][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.12.15-12.34.08:378][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.12.15-12.34.08:378][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.12.15-12.34.08:425][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.12.15-12.34.08:425][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.12.15-12.34.08:451][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.12.15-12.34.08:465][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.12.15-12.34.08:477][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.12.15-12.34.08:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.12.15-12.34.08:503][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.12.15-12.34.08:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.12.15-12.34.08:528][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.12.15-12.34.08:566][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.12.15-12.34.08:566][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.12.15-12.34.08:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.12.15-12.34.08:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.12.15-12.34.08:609][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.12.15-12.34.08:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.12.15-12.34.08:635][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.12.15-12.34.08:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.12.15-12.34.08:648][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.12.15-12.34.08:665][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.12.15-12.34.08:812][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Intermediate/Shaders/WorkingDirectory/12812/).
+[2020.12.15-12.34.08:812][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/farha/AppData/Local/Temp/UnrealShaderWorkingDir/B42C01124A26B53C479BD1A49F7A65A9/'.
+[2020.12.15-12.34.08:815][  0]LogXGEController: Cleaning working directory: C:/Users/farha/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.12.15-12.34.08:815][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.12.15-12.34.08:816][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.12.15-12.34.08:816][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.12.15-12.34.11:065][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.12.15-12.34.11:288][  0]LogDerivedDataCache: Loaded boot cache 0.22s 75MB C:/Users/farha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.15-12.34.11:288][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/farha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.12.15-12.34.11:288][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.12.15-12.34.11:288][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.12.15-12.34.11:288][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.15-12.34.11:288][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.12.15-12.34.11:303][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.12.15-12.34.11:303][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.15-12.34.11:303][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.12.15-12.34.11:306][  0]LogDerivedDataCache: Using Local data cache path C:/Users/farha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.12.15-12.34.11:306][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.12.15-12.34.11:306][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.12.15-12.34.11:375][  0]LogSlate: Using FreeType 2.10.0
+[2020.12.15-12.34.11:381][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.12.15-12.34.11:436][  0]LogAssetRegistry: FAssetRegistry took 0.0041 seconds to start up
+[2020.12.15-12.34.11:992][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.15-12.34.12:222][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.12.15-12.34.12:222][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.12.15-12.34.12:222][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.12.15-12.34.12:222][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.12.15-12.34.12:223][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.12.15-12.34.12:270][  0]LogNetVersion: Inv_Farm 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3136826641)
+[2020.12.15-12.34.13:210][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000020191C82880), frame # 0
+[2020.12.15-12.34.13:210][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020192B26AC0), frame # 0
+[2020.12.15-12.34.13:217][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020191C6A600), frame # 0
+[2020.12.15-12.34.13:309][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.064905 seconds
+[2020.12.15-12.34.13:317][  0]LogUObjectArray: 15913 objects as part of root set at end of initial load.
+[2020.12.15-12.34.13:317][  0]LogUObjectAllocator: 3964304 out of 0 bytes used by permanent object pool.
+[2020.12.15-12.34.13:317][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.12.15-12.34.14:280][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.12.15-12.34.14:292][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.12.15-12.34.14:485][  0]SourceControl: Source control is disabled
+[2020.12.15-12.34.14:486][  0]SourceControl: Source control is disabled
+[2020.12.15-12.34.14:501][  0]SourceControl: Source control is disabled
+[2020.12.15-12.34.14:511][  0]SourceControl: Source control is disabled
+[2020.12.15-12.34.14:526][  0]SourceControl: Source control is disabled
+[2020.12.15-12.34.14:550][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.12.15-12.34.14:551][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.12.15-12.34.15:119][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.12.15-12.34.15:163][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.15-12.34.15:163][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.15-12.34.15:265][  0]LogOcInput: OculusInput pre-init called
+[2020.12.15-12.34.15:289][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.12.15-12.34.15:289][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.12.15-12.34.15:484][  0]LogEngine: Initializing Engine...
+[2020.12.15-12.34.15:489][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.15-12.34.15:489][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.12.15-12.34.15:492][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.12.15-12.34.15:682][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.12.15-12.34.15:738][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.12.15-12.34.15:738][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002019752BC00), frame # 0
+[2020.12.15-12.34.15:738][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000201975665C0), frame # 0
+[2020.12.15-12.34.15:757][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.15-12.34.15:757][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.15-12.34.15:757][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.15-12.34.15:757][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.15-12.34.15:757][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.15-12.34.15:757][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.15-12.34.15:757][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.15-12.34.15:757][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.15-12.34.15:759][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.15-12.34.15:759][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.15-12.34.15:781][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.15-12.34.15:781][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.12.15-12.34.15:815][  0]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.15-12.34.15:817][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.15-12.34.15:822][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.15-12.34.15:822][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.15-12.34.15:824][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.15-12.34.15:826][  0]LogInit: FAudioDevice initialized.
+[2020.12.15-12.34.15:827][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.12.15-12.34.16:010][  0]LogDerivedDataCache: Saved boot cache 0.18s 75MB C:/Users/farha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.15-12.34.16:022][  0]LogInit: Texture streaming: Enabled
+[2020.12.15-12.34.16:056][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.12.15-12.34.16:056][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.12.15-12.34.16:058][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.12.15-12.34.16:166][  0]LogInit: Transaction tracking system initialized
+[2020.12.15-12.34.16:229][  0]BlueprintLog: New page: Editor Load
+[2020.12.15-12.34.16:451][  0]LocalizationService: Localization service is disabled
+[2020.12.15-12.34.16:958][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.12.15-12.34.16:959][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.12.15-12.34.17:108][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.12.15-12.34.17:108][  0]LogCook: Display: Mobile HDR setting 1
+[2020.12.15-12.34.17:362][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/' took 0.01s
+[2020.12.15-12.34.17:653][  0]SourceControl: Source control is disabled
+[2020.12.15-12.34.17:653][  0]LogUnrealEdMisc: Loading editor; pre map load, took 22.328
+[2020.12.15-12.34.17:654][  0]Cmd: MAP LOAD FILE="D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.15-12.34.17:656][  0]LightingResults: New page: Lighting Build
+[2020.12.15-12.34.17:660][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-12.34.17:661][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-12.34.17:662][  0]MapCheck: New page: Map Check
+[2020.12.15-12.34.17:662][  0]LightingResults: New page: Lighting Build
+[2020.12.15-12.34.17:681][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002019752BC00), frame # 0
+[2020.12.15-12.34.17:681][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000201975665C0), frame # 0
+[2020.12.15-12.34.17:683][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2020.12.15-12.34.19:461][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.15-12.34.19:461][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002018C333E00), frame # 0
+[2020.12.15-12.34.19:461][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002018C372480), frame # 0
+[2020.12.15-12.34.19:549][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.15-12.34.19:587][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.12.15-12.34.19:588][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.15-12.34.19:588][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.116ms to complete.
+[2020.12.15-12.34.19:588][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.934
+[2020.12.15-12.34.19:639][  0]LogUnrealEdMisc: Total Editor Startup Time, took 24.313
+[2020.12.15-12.34.19:839][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-12.34.19:850][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-12.34.19:864][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-12.34.19:877][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-12.34.20:152][  0]LogCollectionManager: Loaded 0 collections in 0.002180 seconds
+[2020.12.15-12.34.20:196][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Collections/' took 0.00s
+[2020.12.15-12.34.20:196][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Developers/farha/Collections/' took 0.00s
+[2020.12.15-12.34.20:196][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Collections/' took 0.00s
+[2020.12.15-12.34.20:196][  0]LogContentBrowser: Native class hierarchy populated in 0.0120 seconds. Added 3427 classes and 821 folders.
+[2020.12.15-12.34.20:221][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.12.15-12.34.20:624][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.12.15-12.34.20:680][  0]LogSlate: Took 0.001526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.12.15-12.34.20:688][  0]LogSlate: Took 0.001074 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.12.15-12.34.20:757][  0]LogRenderer: Reallocating scene render targets to support 1112x788 Format 9 NumSamples 1 (Frame:1).
+[2020.12.15-12.34.21:068][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.12.15-12.34.21:068][  0]LogLoad: (Engine Initialization) Total time: 25.74 seconds
+[2020.12.15-12.34.21:068][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.12.15-12.34.21:131][  0]LogAssetRegistry: Asset discovery search completed in 9.6976 seconds
+[2020.12.15-12.34.21:137][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000303 seconds (updated 0 objects)
+[2020.12.15-12.34.21:146][  0]LogContentStreaming: Texture pool size now 600 MB
+[2020.12.15-12.35.24:138][671]LogSlate: Took 0.007820 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.12.15-12.35.24:192][671]LogSlate: Took 0.008554 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.15-12.36.19:055][429]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.15-12.36.19:074][429]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectMenu.QuickSelectMenu
+[2020.12.15-12.36.19:315][429]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2020.12.15-12.36.20:880][429]LogSlate: Took 0.007249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.12.15-12.36.22:051][560]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-12.36.22:051][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-12.36.22:056][560]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-12.36.22:056][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-12.36.36:338][222]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtns.QuickSelectBtns
+[2020.12.15-12.36.38:432][407]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtns3CAEF3DC46AF230B3F9075904992BA59.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtns.uasset'
+[2020.12.15-12.36.38:454][407]AssetCheck: New page: Asset Save: QuickSelectBtns
+[2020.12.15-12.36.38:454][407]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtns.QuickSelectBtns
+[2020.12.15-12.36.41:194][722]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.36.44:095][ 11]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-12.36.44:095][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-12.36.44:100][ 11]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-12.36.44:100][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-12.36.47:085][348]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2020.12.15-12.36.48:149][348]LogSlate: Window 'Delete Assets' being destroyed
+[2020.12.15-12.36.48:909][348]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-12.36.48:909][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-12.36.48:912][348]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-12.36.48:912][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-12.36.48:961][348]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/GameBlueprints/Inventory/UI/QuickSelectBtns.QuickSelectBtns
+[2020.12.15-12.36.50:417][348]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2020.12.15-12.36.50:437][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2020.12.15-12.36.50:453][348]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.12.15-12.36.53:892][748]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.36.55:907][929]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn6AE528B24C4A9EC5D86EE88CA9913F84.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.36.55:915][929]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.36.55:915][929]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.37.08:615][386]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.37.08:637][386]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.12.15-12.37.10:964][646]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtnCD445499430B9180115D9195354E8043.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.37.10:974][646]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.37.10:974][646]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.37.14:975][ 83]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.37.14:997][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.12.15-12.37.15:505][129]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn62A77A4C4DD27E031677BE9809B80540.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.37.15:514][129]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.37.15:514][129]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.37.28:671][630]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.37.28:693][630]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.12.15-12.37.29:182][681]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtnEC6AE1D54A96568445EB38B2684C3E08.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.37.29:192][681]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.37.29:192][681]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.37.33:213][124]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.37.33:236][124]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.12.15-12.37.33:673][161]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn7ACB7CC342C7D9A860BC628A5F2BDBDB.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.37.33:682][161]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.37.33:682][161]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.38.20:860][581]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.38.20:883][581]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.12.15-12.38.21:479][644]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn74F9C2544E24A892426B2C8D469B30B5.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.38.21:489][644]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.38.21:489][644]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.38.24:733][ 29]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtnD52709C14A8087536C13DD97D92C9B42.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.38.24:742][ 29]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.38.24:742][ 29]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.38.25:625][122]LogSlate: Took 0.000763 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.12.15-12.38.27:073][281]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn73BF98A64A883FFAA999A6815C40C2A0.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.38.27:081][281]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.38.27:082][281]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.38.47:764][722]LogSlate: Took 0.009722 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.12.15-12.39.08:165][ 39]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.39.08:190][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.12.15-12.39.08:769][101]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtnAEB44437412EDBEBA9DCDD823D657DC7.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.39.08:779][101]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.39.08:779][101]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.39.12:290][508]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn2D2DE3254BEAF9410CDD32A2A94C1BEC.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.39.12:298][508]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.39.12:298][508]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.39.16:781][ 19]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn86013FD94D17CD34C11AC7ACB3F867D6.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.39.16:790][ 19]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.39.16:790][ 19]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.39.19:253][287]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn1EF28A9A47AE288A4115D0B30AF97720.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.39.19:263][287]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.39.19:263][287]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.39.25:960][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.12.15-12.39.33:404][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.12.15-12.39.59:149][872]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.39.59:174][872]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.12.15-12.39.59:718][930]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtnFE14B0F44B557E5A1ACC62B32CD2E65B.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.39.59:729][930]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.39.59:729][930]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.40.04:827][519]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameBlueprints/Inventory/UI/DD_FromInv.DD_FromInv
+[2020.12.15-12.40.26:853][ 57]BlueprintLog: New page: Compile DD_FromInv
+[2020.12.15-12.40.26:888][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2020.12.15-12.40.27:801][156]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/DD_FromInvCC7F81E344CC3E094D0776A007E216A2.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/DD_FromInv.uasset'
+[2020.12.15-12.40.27:810][156]AssetCheck: New page: Asset Save: DD_FromInv
+[2020.12.15-12.40.27:810][156]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/UI/DD_FromInv.DD_FromInv
+[2020.12.15-12.40.28:642][244]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-12.40.28:642][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-12.40.36:434][147]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/GameBlueprints/Inventory/UI/InvSlots.InvSlots
+[2020.12.15-12.40.37:856][253]LogSlate: Took 0.007953 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.12.15-12.40.58:814][657]BlueprintLog: New page: Compile InvSlots
+[2020.12.15-12.40.58:872][657]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2020.12.15-12.40.59:455][711]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/InvSlots326991594FF8423A31CCCFB5FD433C5E.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/InvSlots.uasset'
+[2020.12.15-12.40.59:468][711]AssetCheck: New page: Asset Save: InvSlots
+[2020.12.15-12.40.59:468][711]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/InvSlots.InvSlots
+[2020.12.15-12.41.02:214][ 29]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-12.41.02:214][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-12.41.02:237][ 29]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-12.41.02:237][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-12.41.04:654][297]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn6072543E48AE562B947B99A2CCE5D621.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.41.04:662][297]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.41.04:662][297]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.41.21:848][307]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.41.21:878][307]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.12.15-12.41.22:370][358]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn85AB4F1140F0F75B0F43018703D8C6EC.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.41.22:382][358]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.41.22:382][358]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.42.07:459][360]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.42.07:483][360]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.12.15-12.42.08:362][455]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn4B5D778348D6EA0BFD34779E71120193.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.42.08:375][455]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.42.08:375][455]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.42.32:288][260]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.42.32:314][260]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2020.12.15-12.42.32:886][319]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn67CB02BE42A9F96454D508B56CE502EE.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.42.32:899][319]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.42.32:899][319]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.42.49:822][253]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.42.49:848][253]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2020.12.15-12.42.50:335][302]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn34C129D043F285E8F7F6FB8AE355F0C9.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.42.50:346][302]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.42.50:346][302]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.43.24:530][232]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.43.24:555][232]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.12.15-12.43.25:107][288]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtnB8D0355E482DD172BBC5B29D6202E80A.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.43.25:120][288]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.43.25:120][288]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.44.02:156][508]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.44.02:183][508]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2020.12.15-12.44.02:661][554]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtnB13DA7344FF0D6BB0944FDA943D9012B.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.44.02:673][554]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.44.02:673][554]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.44.06:239][948]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.44.06:265][948]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.12.15-12.44.06:750][995]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtnBB5F270A458E45B2F476D78D3DC0C78D.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.44.06:762][995]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.44.06:762][995]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.44.10:601][433]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-12.44.10:601][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-12.44.10:623][433]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-12.44.10:623][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-12.44.12:872][684]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectMenu.QuickSelectMenu
+[2020.12.15-12.44.47:061][689]LogSlate: Took 0.016689 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2020.12.15-12.45.33:068][928]BlueprintLog: New page: Compile QuickSelectMenu
+[2020.12.15-12.45.33:121][928]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2020.12.15-12.45.33:611][975]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectMenu973339AD4BF74A9339D4F58CF52059F4.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectMenu.uasset'
+[2020.12.15-12.45.33:625][975]AssetCheck: New page: Asset Save: QuickSelectMenu
+[2020.12.15-12.45.33:626][975]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectMenu.QuickSelectMenu
+[2020.12.15-12.46.00:902][214]BlueprintLog: New page: Compile QuickSelectMenu
+[2020.12.15-12.46.00:936][214]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2020.12.15-12.46.01:441][264]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectMenuDB6B81C24F68D9C7E5C3C19158213E5C.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectMenu.uasset'
+[2020.12.15-12.46.01:450][264]AssetCheck: New page: Asset Save: QuickSelectMenu
+[2020.12.15-12.46.01:450][264]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectMenu.QuickSelectMenu
+[2020.12.15-12.46.05:197][676]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectMenu55FA522E4790C458038A5FB7B9D48E56.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectMenu.uasset'
+[2020.12.15-12.46.05:206][676]AssetCheck: New page: Asset Save: QuickSelectMenu
+[2020.12.15-12.46.05:206][676]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectMenu.QuickSelectMenu
+[2020.12.15-12.46.12:226][499]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.46.16:094][890]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn231384EA449A863EAC92819848EF4ABE.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.46.16:103][890]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.46.16:103][890]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.46.24:111][823]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.46.24:230][823]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.12.15-12.46.24:642][854]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn2994CB2A4DE905FF6CEEB88A84F26F04.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.46.24:654][854]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.46.24:654][854]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.46.35:780][157]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn0D8940E74C83D65240152DB0A32178B4.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.46.35:791][157]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.46.35:791][157]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.46.50:758][935]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtnA47B2EBC42B9304464835F8962CEA30B.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.46.50:768][935]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.46.50:768][935]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.46.57:652][732]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn8BB37D504FE5D0A19834C0B166754E92.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.46.57:661][732]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.46.57:661][732]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.47.04:185][486]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtnE271C758411BDA4711FBD8A8CC12A3B1.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.47.04:197][486]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.47.04:197][486]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.47.27:213][222]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn896C1C5F4F3BE3A4D929BC8A620F0159.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.47.27:222][222]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.47.27:222][222]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.47.39:064][589]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtnAE48BF1040095DCE1E1A3AA44CB7F2AF.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.47.39:076][589]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.47.39:076][589]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.48.11:875][373]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn2B447E2E48DD0B588C27DE8108970CDA.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.48.11:885][373]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.48.11:885][373]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.48.16:846][954]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/GameBlueprints/Inventory/UI/ItemWindow.ItemWindow
+[2020.12.15-12.48.39:168][540]BlueprintLog: New page: Compile ItemWindow
+[2020.12.15-12.48.39:214][540]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.12.15-12.48.40:144][630]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ItemWindow94105B9240833EC4474177B311DAEA47.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/ItemWindow.uasset'
+[2020.12.15-12.48.40:155][630]AssetCheck: New page: Asset Save: ItemWindow
+[2020.12.15-12.48.40:155][630]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/ItemWindow.ItemWindow
+[2020.12.15-12.49.09:358][977]BlueprintLog: New page: Compile ItemWindow
+[2020.12.15-12.49.09:439][977]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.12.15-12.49.09:946][ 17]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ItemWindow8667CF5C43D6974DBF1CB0A0E256A5F4.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/ItemWindow.uasset'
+[2020.12.15-12.49.09:957][ 17]AssetCheck: New page: Asset Save: ItemWindow
+[2020.12.15-12.49.09:957][ 17]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/ItemWindow.ItemWindow
+[2020.12.15-12.49.11:359][176]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.15-12.49.11:386][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.15-12.49.11:391][176]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 16, 2020, 12:49:11 AM)
+[2020.12.15-12.49.11:395][176]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.12.15-12.49.11:397][176]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.12.15-12.49.11:399][176]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-12.49.11:415][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016251s)
+[2020.12.15-12.49.11:418][176]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.15-12.49.11:418][176]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002022B978A00), frame # 89176
+[2020.12.15-12.49.11:419][176]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000201D9D79A80), frame # 89176
+[2020.12.15-12.49.11:420][176]LogPlayLevel: PIE: World Init took: (0.003574s)
+[2020.12.15-12.49.11:420][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020937s)
+[2020.12.15-12.49.11:449][176]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.12.15-12.49.11:452][176]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.15-12.49.11:452][176]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.15-12.49.11:452][176]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.15-12.49.11:452][176]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.15-12.49.11:452][176]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.15-12.49.11:452][176]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.15-12.49.11:452][176]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.15-12.49.11:452][176]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.15-12.49.11:452][176]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.15-12.49.11:452][176]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.15-12.49.11:454][176]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.15-12.49.11:454][176]LogAudioMixer: Display: 1: FrontRight
+[2020.12.15-12.49.11:470][176]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.15-12.49.11:470][176]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.15-12.49.11:470][176]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.15-12.49.11:470][176]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.15-12.49.11:471][176]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.15-12.49.11:484][176]LogInit: FAudioDevice initialized.
+[2020.12.15-12.49.11:492][176]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.12.15-12.49.11:494][176]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.12.15-18.49.11
+[2020.12.15-12.49.11:496][176]LogWorld: Bringing up level for play took: 0.002774
+[2020.12.15-12.49.11:497][176]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.12.15-12.49.11:525][176]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.12.15-12.49.11:565][176]PIE: Server logged in
+[2020.12.15-12.49.11:566][176]PIE: Play in editor total start time 0.187 seconds.
+[2020.12.15-12.49.23:994][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-12.49.23:995][364]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-12.49.23:996][364]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-12.49.23:997][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-12.49.24:009][364]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.15-12.49.24:016][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-12.49.24:068][364]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-12.49.24:074][364]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000201D9D79A80), frame # 90364
+[2020.12.15-12.49.24:074][364]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002022B978A00), frame # 90364
+[2020.12.15-12.49.24:100][364]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2020.12.15-12.49.24:146][365]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.12.15-12.49.25:128][466]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2020.12.15-12.49.25:181][466]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMap7582F7E349E5099BF776F98326487CF4.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap.umap'
+[2020.12.15-12.49.25:338][466]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMap_BuiltData519032C242D4FDCC855F518A223AF817.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.15-12.49.25:355][466]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.15-12.49.25:355][466]LogContentValidation: Display: Validating World /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.15-12.49.25:355][466]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.15-12.49.31:649][176]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ItemWindow7155938C44588AD902D46DA0C1152F95.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/ItemWindow.uasset'
+[2020.12.15-12.49.31:659][176]AssetCheck: New page: Asset Save: ItemWindow
+[2020.12.15-12.49.31:659][176]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/ItemWindow.ItemWindow
+[2020.12.15-12.50.04:008][871]BlueprintLog: New page: Compile QuickSelectMenu
+[2020.12.15-12.50.04:108][871]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2020.12.15-12.50.04:583][908]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectMenu3D8E529143783D2632737C8AF54FBD89.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectMenu.uasset'
+[2020.12.15-12.50.04:595][908]AssetCheck: New page: Asset Save: QuickSelectMenu
+[2020.12.15-12.50.04:595][908]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectMenu.QuickSelectMenu
+[2020.12.15-12.50.28:189][641]LogSlate: Window 'Color Picker' being destroyed
+[2020.12.15-12.50.35:724][525]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.50.35:871][525]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2020.12.15-12.50.36:347][564]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn964176EA44081570D7D0B485AC020345.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.50.36:358][564]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.50.36:358][564]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.50.40:518][ 33]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn54D018DD4BE38BE8EE7BDF90C025372B.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.50.40:528][ 33]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.50.40:528][ 33]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.50.54:326][615]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.50.54:455][615]LogUObjectHash: Compacting FUObjectHashTables data took   4.98ms
+[2020.12.15-12.50.54:862][645]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn258FBE894EA4F6C506CF04AB7BF287C8.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.50.54:876][645]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.50.54:876][645]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.51.00:770][304]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.51.00:913][304]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2020.12.15-12.51.01:491][353]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtnC22FB68B4894FABA676E3993BC471A59.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.51.01:502][353]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.51.01:503][353]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.51.10:498][390]LogBlueprint: Warning: [Compiler QuickSelectBtn] Variable Iteminfo is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2020.12.15-12.51.12:516][612]LogBlueprint: Warning: [Compiler QuickSelectBtn] Variable Index is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2020.12.15-12.51.15:273][928]LogBlueprint: Warning: [Compiler QuickSelectBtn] Variable Index is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2020.12.15-12.51.15:279][928]LogBlueprint: Warning: [Compiler QuickSelectBtn] Variable PlayerInventory is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2020.12.15-12.51.15:280][928]LogBlueprint: Warning: [Compiler QuickSelectBtn] Variable Index is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2020.12.15-12.51.15:776][980]LogBlueprint: Warning: [Compiler QuickSelectBtn] Variable Index is marked as 'Expose on Spawn' but not marked as 'Editable'; please make it 'Editable'
+[2020.12.15-12.51.22:210][709]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.51.22:342][709]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2020.12.15-12.51.22:802][744]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn649511CD45784FD07B8847A87180F8DD.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.51.22:813][744]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.51.22:813][744]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.51.52:335][151]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.51.52:485][151]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
+[2020.12.15-12.51.52:955][182]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn3F0CD841419C59AD71C7A48968ACB398.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.51.52:967][182]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.51.52:967][182]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.52.36:198][178]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.52.36:348][178]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2020.12.15-12.52.47:945][480]BlueprintLog: New page: Compile QuickSelectBtn
+[2020.12.15-12.52.48:076][480]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2020.12.15-12.52.48:467][510]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectBtn1DFFF1174FE616C1AC32EB90FAB42AB7.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectBtn.uasset'
+[2020.12.15-12.52.48:481][510]AssetCheck: New page: Asset Save: QuickSelectBtn
+[2020.12.15-12.52.48:481][510]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectBtn.QuickSelectBtn
+[2020.12.15-12.52.51:019][801]BlueprintLog: New page: Compile QuickSelectMenu
+[2020.12.15-12.52.51:093][801]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2020.12.15-12.52.51:561][843]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectMenuEC3B201849A4CBC87B938695E105EFC4.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectMenu.uasset'
+[2020.12.15-12.52.51:574][843]AssetCheck: New page: Asset Save: QuickSelectMenu
+[2020.12.15-12.52.51:574][843]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectMenu.QuickSelectMenu
+[2020.12.15-12.53.22:071][416]BlueprintLog: New page: Compile QuickSelectMenu
+[2020.12.15-12.53.22:146][416]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2020.12.15-12.53.22:613][454]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/QuickSelectMenu7FABFCA14B77717694E56C846B591DB8.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/QuickSelectMenu.uasset'
+[2020.12.15-12.53.22:628][454]AssetCheck: New page: Asset Save: QuickSelectMenu
+[2020.12.15-12.53.22:628][454]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/QuickSelectMenu.QuickSelectMenu
+[2020.12.15-12.53.23:485][541]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2020.12.15-12.53.23:519][541]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMap9B7DA3AA4796D692C1C2BB956E847DAA.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap.umap'
+[2020.12.15-12.53.23:663][541]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMap_BuiltData3AAEBF8F4BE394F987F4E99DC1FFE956.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.15-12.53.23:680][541]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.15-12.53.23:680][541]LogContentValidation: Display: Validating World /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.15-12.53.23:680][541]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.15-12.53.24:097][582]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.15-12.53.24:119][582]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.15-12.53.24:119][582]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 16, 2020, 12:53:24 AM)
+[2020.12.15-12.53.24:119][582]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-12.53.24:133][582]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013371s)
+[2020.12.15-12.53.24:135][582]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.15-12.53.24:135][582]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000201B9AE5400), frame # 117582
+[2020.12.15-12.53.24:135][582]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002018B8A11C0), frame # 117582
+[2020.12.15-12.53.24:136][582]LogPlayLevel: PIE: World Init took: (0.002798s)
+[2020.12.15-12.53.24:136][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016408s)
+[2020.12.15-12.53.24:171][582]LogUObjectHash: Compacting FUObjectHashTables data took   3.71ms
+[2020.12.15-12.53.24:173][582]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.15-12.53.24:173][582]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.15-12.53.24:173][582]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.15-12.53.24:173][582]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.15-12.53.24:173][582]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.15-12.53.24:173][582]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.15-12.53.24:173][582]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.15-12.53.24:173][582]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.15-12.53.24:174][582]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.15-12.53.24:174][582]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.15-12.53.24:175][582]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.15-12.53.24:175][582]LogAudioMixer: Display: 1: FrontRight
+[2020.12.15-12.53.24:189][582]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.15-12.53.24:190][582]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.15-12.53.24:190][582]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.15-12.53.24:190][582]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.15-12.53.24:190][582]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.15-12.53.24:204][582]LogInit: FAudioDevice initialized.
+[2020.12.15-12.53.24:216][582]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2020.12.15-12.53.24:218][582]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.12.15-18.53.24
+[2020.12.15-12.53.24:218][582]LogWorld: Bringing up level for play took: 0.001584
+[2020.12.15-12.53.24:219][582]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.12.15-12.53.24:224][582]PIE: Server logged in
+[2020.12.15-12.53.24:225][582]PIE: Play in editor total start time 0.107 seconds.
+[2020.12.15-12.53.43:282][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-12.53.43:282][478]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-12.53.43:282][478]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-12.53.43:284][478]LogOutputDevice: Warning: 
+
+Script Stack (6 frames):
+InvList_C.ExecuteUbergraph_InvList
+InvList_C.Refresh List
+ItemWindow_C.ExecuteUbergraph_ItemWindow
+ItemWindow_C.Refresh
+PlayerInventory_C.ExecuteUbergraph_PlayerInventory
+PlayerInventory_C.BndEvt__Sphere_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature
+
+[2020.12.15-12.53.43:716][478]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.432 s
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: === Handled ensure: ===
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: 
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: Ensure condition failed: !World->bIsTearingDown [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/UMG/Private/UserWidget.cpp] [Line: 2173]
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: Widget Class InvSlots_C - Attempting to be created while tearing down the world 'ThirdPersonExampleMap'
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: Stack: 
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff95c78b045 UE4Editor-UMG.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff95c63e974 UE4Editor-UMG.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff95c64045f UE4Editor-UMG.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff95c5a9215 UE4Editor-UMG.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff95c63a703 UE4Editor-UMG.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff95c7319ba UE4Editor-UMG.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff960210b34 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff9604600ad UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff9604830e3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff9604ace4f UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff96048571d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff960453bba UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff960485362 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff96048571d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff960453bba UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff960485362 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff9604830e3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff96048571d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff960453bba UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff960485362 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff96048571d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff960453bba UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff960485362 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff9604830e3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff96048571d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff960453bba UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff960485362 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff96048571d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff960484c24 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff960210b34 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff960484753 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff956c1afe5 UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff956bc0f0b UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff95700801e UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff956be9985 UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff95746dc56 UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff957002768 UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff956fa066f UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff956fdfc6e UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff956c354b2 UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff95746695b UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff957e4a8e0 UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff957e49bc5 UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff955ad6e22 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff955a9ba0e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff95555bce5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff955e337e6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff6e9d67800 UE4Editor.exe!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff6e9d7ba7c UE4Editor.exe!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff6e9d7bb5a UE4Editor.exe!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff6e9d8e31d UE4Editor.exe!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff6e9d9145a UE4Editor.exe!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff9b7547034 KERNEL32.DLL!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: [Callstack] 0x00007ff9b793d0d1 ntdll.dll!UnknownFunction []
+[2020.12.15-12.53.43:717][478]LogOutputDevice: Error: 

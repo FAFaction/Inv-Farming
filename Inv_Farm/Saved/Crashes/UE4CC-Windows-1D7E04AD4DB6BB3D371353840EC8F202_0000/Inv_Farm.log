@@ -1,0 +1,1448 @@
+﻿Log file open, 12/15/20 10:39:10
+LogInit: Display: Running engine for game: Inv_Farm
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.893564
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 5 3400G with Radeon Vega Graphics    , GPU: AMD Radeon(TM) RX Vega 11 Graphics
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.12.15-04.39.12:227][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.12.15-04.39.12:227][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Engine.ini]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Engine.ini]
+[2020.12.15-04.39.12:228][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Engine.ini]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Engine.ini]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.12.15-04.39.12:228][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Engine.ini]
+[2020.12.15-04.39.12:229][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Engine.ini]
+[2020.12.15-04.39.12:234][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.15-04.39.12:234][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.39.12:234][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.15-04.39.12:235][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.15-04.39.12:235][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.15-04.39.12:235][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.12.15-04.39.12:236][  0]LogHAL: Display: Platform has ~ 6 GB [6373261312 / 8589934592 / 6], which maps to Smaller [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.12.15-04.39.12:237][  0]LogInit: Going up to parent DeviceProfile []
+[2020.12.15-04.39.12:237][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:1]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.BloomQuality:4]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:2]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
+[2020.12.15-04.39.12:237][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:32]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Scalability.ini]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.12.15-04.39.12:238][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.12.15-04.39.12:246][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.12.15-04.39.12:246][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.12.15-04.39.12:246][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.12.15-04.39.12:246][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Config/Windows/Engine.ini]
+[2020.12.15-04.39.12:249][  0]LogInit: Computer: DESKTOP-TSO8MN9
+[2020.12.15-04.39.12:249][  0]LogInit: User: farha
+[2020.12.15-04.39.12:249][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.12.15-04.39.12:249][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.12.15-04.39.12:249][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2020.12.15-04.39.12:249][  0]LogMemory: Platform Memory Stats for Windows
+[2020.12.15-04.39.12:249][  0]LogMemory: Process Physical Memory: 114.74 MB used, 114.74 MB peak
+[2020.12.15-04.39.12:249][  0]LogMemory: Process Virtual Memory: 95.73 MB used, 95.73 MB peak
+[2020.12.15-04.39.12:249][  0]LogMemory: Physical Memory: 3495.64 MB used,  2582.38 MB free, 6078.02 MB total
+[2020.12.15-04.39.12:249][  0]LogMemory: Virtual Memory: 5144.90 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.12.15-04.39.12:255][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.12.15-04.39.12:519][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.12.15-04.39.12:524][  0]LogInit: Using OS detected language (en-US).
+[2020.12.15-04.39.12:524][  0]LogInit: Using OS detected locale (en-US).
+[2020.12.15-04.39.12:548][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.12.15-04.39.12:887][  0]LogInit: Setting process to per monitor DPI aware
+[2020.12.15-04.39.12:992][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.12.15-04.39.12:993][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.12.15-04.39.16:348][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.15-04.39.16:348][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.12.15-04.39.16:348][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.12.15-04.39.16:348][  0]LogD3D11RHI: D3D11 adapters:
+[2020.12.15-04.39.16:386][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) RX Vega 11 Graphics' (Feature Level 11_0)
+[2020.12.15-04.39.16:386][  0]LogD3D11RHI:       2033/0/3039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2020.12.15-04.39.16:389][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.12.15-04.39.16:389][  0]LogD3D11RHI:       0/0/3039 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.12.15-04.39.16:389][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.12.15-04.39.16:397][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.12.15-04.39.16:397][  0]LogD3D11RHI:     GPU DeviceId: 0x15d8 (for the marketing name, search the web for "GPU Device Id")
+[2020.12.15-04.39.16:397][  0]LogWindows: EnumDisplayDevices:
+[2020.12.15-04.39.16:397][  0]LogWindows:    0. 'AMD Radeon(TM) RX Vega 11 Graphics' (P:1 D:1)
+[2020.12.15-04.39.16:397][  0]LogWindows:    1. 'AMD Radeon(TM) RX Vega 11 Graphics' (P:0 D:0)
+[2020.12.15-04.39.16:398][  0]LogWindows:    2. 'AMD Radeon(TM) RX Vega 11 Graphics' (P:0 D:0)
+[2020.12.15-04.39.16:398][  0]LogWindows:    3. 'AMD Radeon(TM) RX Vega 11 Graphics' (P:0 D:0)
+[2020.12.15-04.39.16:398][  0]LogWindows:    4. 'AMD Radeon(TM) RX Vega 11 Graphics' (P:0 D:0)
+[2020.12.15-04.39.16:398][  0]LogWindows:    5. 'AMD Radeon(TM) RX Vega 11 Graphics' (P:0 D:0)
+[2020.12.15-04.39.16:399][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2020.12.15-04.39.16:399][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) RX Vega 11 Graphics
+[2020.12.15-04.39.16:399][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 20.11.2 (internal:27.20.14501.18003, unified:27.20.14501.18003)
+[2020.12.15-04.39.16:399][  0]LogD3D11RHI:      Driver Date: 11-13-2020
+[2020.12.15-04.39.16:399][  0]LogRHI: Texture pool is 3195 MB (70% of 4565 MB)
+[2020.12.15-04.39.16:457][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.12.15-04.39.16:458][  0]LogD3D11RHI: Async texture creation enabled
+[2020.12.15-04.39.16:458][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.12.15-04.39.16:485][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.12.15-04.39.16:907][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.12.15-04.39.16:934][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.12.15-04.39.16:934][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.12.15-04.39.16:934][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.12.15-04.39.16:934][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.12.15-04.39.16:934][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.12.15-04.39.16:934][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.12.15-04.39.16:934][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.12.15-04.39.16:934][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.12.15-04.39.16:934][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.12.15-04.39.16:934][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.12.15-04.39.16:978][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.12.15-04.39.16:978][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.12.15-04.39.17:002][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.12.15-04.39.17:013][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.12.15-04.39.17:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.12.15-04.39.17:037][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.12.15-04.39.17:049][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.12.15-04.39.17:062][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.12.15-04.39.17:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.12.15-04.39.17:110][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.12.15-04.39.17:110][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.12.15-04.39.17:129][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.12.15-04.39.17:129][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.12.15-04.39.17:144][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.12.15-04.39.17:156][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.12.15-04.39.17:168][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.12.15-04.39.17:179][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.12.15-04.39.17:179][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.12.15-04.39.17:231][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.12.15-04.39.17:391][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Intermediate/Shaders/WorkingDirectory/13268/).
+[2020.12.15-04.39.17:391][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/farha/AppData/Local/Temp/UnrealShaderWorkingDir/B5C1409049D05959E3B81DA79DA1DE20/'.
+[2020.12.15-04.39.17:392][  0]LogXGEController: Cleaning working directory: C:/Users/farha/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.12.15-04.39.17:392][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.12.15-04.39.17:392][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.12.15-04.39.17:392][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.12.15-04.39.21:093][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.12.15-04.39.21:299][  0]LogDerivedDataCache: Loaded boot cache 0.20s 75MB C:/Users/farha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.15-04.39.21:299][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/farha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.12.15-04.39.21:299][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.12.15-04.39.21:299][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.12.15-04.39.21:299][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.15-04.39.21:299][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.12.15-04.39.21:321][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.12.15-04.39.21:321][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.15-04.39.21:321][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.12.15-04.39.21:323][  0]LogDerivedDataCache: Using Local data cache path C:/Users/farha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.12.15-04.39.21:323][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.12.15-04.39.21:323][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.12.15-04.39.21:378][  0]LogSlate: Using FreeType 2.10.0
+[2020.12.15-04.39.21:403][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.12.15-04.39.21:448][  0]LogAssetRegistry: FAssetRegistry took 0.0051 seconds to start up
+[2020.12.15-04.39.21:854][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.15-04.39.22:165][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.12.15-04.39.22:165][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.12.15-04.39.22:165][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.12.15-04.39.22:165][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.12.15-04.39.22:165][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.12.15-04.39.22:236][  0]LogNetVersion: Inv_Farm 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3136826641)
+[2020.12.15-04.39.23:898][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000020273B16880), frame # 0
+[2020.12.15-04.39.23:898][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000202749A2AC0), frame # 0
+[2020.12.15-04.39.23:903][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020273AFE600), frame # 0
+[2020.12.15-04.39.24:003][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.059833 seconds
+[2020.12.15-04.39.24:009][  0]LogUObjectArray: 15913 objects as part of root set at end of initial load.
+[2020.12.15-04.39.24:009][  0]LogUObjectAllocator: 3964304 out of 0 bytes used by permanent object pool.
+[2020.12.15-04.39.24:009][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.12.15-04.39.25:248][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.12.15-04.39.25:262][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.12.15-04.39.25:495][  0]SourceControl: Source control is disabled
+[2020.12.15-04.39.25:496][  0]SourceControl: Source control is disabled
+[2020.12.15-04.39.25:515][  0]SourceControl: Source control is disabled
+[2020.12.15-04.39.25:525][  0]SourceControl: Source control is disabled
+[2020.12.15-04.39.25:540][  0]SourceControl: Source control is disabled
+[2020.12.15-04.39.25:565][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.12.15-04.39.25:567][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.12.15-04.39.26:166][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.12.15-04.39.26:203][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.15-04.39.26:203][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.12.15-04.39.26:334][  0]LogOcInput: OculusInput pre-init called
+[2020.12.15-04.39.26:358][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.12.15-04.39.26:358][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.12.15-04.39.26:566][  0]LogEngine: Initializing Engine...
+[2020.12.15-04.39.26:568][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.15-04.39.26:569][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.12.15-04.39.26:573][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2020.12.15-04.39.27:004][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.12.15-04.39.27:045][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.12.15-04.39.27:045][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020278787C00), frame # 0
+[2020.12.15-04.39.27:045][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000202787CE5C0), frame # 0
+[2020.12.15-04.39.27:059][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.15-04.39.27:059][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.15-04.39.27:059][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.15-04.39.27:059][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.15-04.39.27:059][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.15-04.39.27:059][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.15-04.39.27:059][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.15-04.39.27:059][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.15-04.39.27:061][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.15-04.39.27:061][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.15-04.39.27:081][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.15-04.39.27:081][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.12.15-04.39.27:135][  0]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.15-04.39.27:137][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.15-04.39.27:166][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.15-04.39.27:166][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.15-04.39.27:168][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.15-04.39.27:169][  0]LogInit: FAudioDevice initialized.
+[2020.12.15-04.39.27:170][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.12.15-04.39.27:354][  0]LogDerivedDataCache: Saved boot cache 0.18s 75MB C:/Users/farha/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.12.15-04.39.27:363][  0]LogInit: Texture streaming: Enabled
+[2020.12.15-04.39.27:409][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.12.15-04.39.27:409][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={8E47168B-42F0-0AC9-9E5F-F09E37A82FF4}
+[2020.12.15-04.39.27:409][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.12.15-04.39.27:411][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.12.15-04.39.27:617][  0]LogInit: Transaction tracking system initialized
+[2020.12.15-04.39.27:670][  0]BlueprintLog: New page: Editor Load
+[2020.12.15-04.39.27:865][  0]LocalizationService: Localization service is disabled
+[2020.12.15-04.39.28:289][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.12.15-04.39.28:289][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.12.15-04.39.28:833][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/' took 0.00s
+[2020.12.15-04.39.28:833][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.12.15-04.39.28:835][  0]LogCook: Display: Mobile HDR setting 1
+[2020.12.15-04.39.29:498][  0]SourceControl: Source control is disabled
+[2020.12.15-04.39.29:498][  0]LogUnrealEdMisc: Loading editor; pre map load, took 25.637
+[2020.12.15-04.39.29:499][  0]Cmd: MAP LOAD FILE="D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.15-04.39.29:507][  0]LightingResults: New page: Lighting Build
+[2020.12.15-04.39.29:513][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-04.39.29:514][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.39.29:515][  0]MapCheck: New page: Map Check
+[2020.12.15-04.39.29:515][  0]LightingResults: New page: Lighting Build
+[2020.12.15-04.39.29:530][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020278787C00), frame # 0
+[2020.12.15-04.39.29:530][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000202787CE5C0), frame # 0
+[2020.12.15-04.39.29:531][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.12.15-04.39.31:400][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.15-04.39.31:400][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002020DF1FE00), frame # 0
+[2020.12.15-04.39.31:400][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002020DF7DBC0), frame # 0
+[2020.12.15-04.39.31:440][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.15-04.39.31:463][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2020.12.15-04.39.31:463][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.15-04.39.31:464][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.464ms to complete.
+[2020.12.15-04.39.31:464][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.965
+[2020.12.15-04.39.31:510][  0]LogUnrealEdMisc: Total Editor Startup Time, took 27.649
+[2020.12.15-04.39.31:683][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.39.31:692][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.39.31:704][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.39.31:713][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.39.31:922][  0]LogCollectionManager: Loaded 0 collections in 0.002594 seconds
+[2020.12.15-04.39.31:958][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Collections/' took 0.00s
+[2020.12.15-04.39.31:958][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Developers/farha/Collections/' took 0.00s
+[2020.12.15-04.39.31:958][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Collections/' took 0.00s
+[2020.12.15-04.39.31:958][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 3427 classes and 821 folders.
+[2020.12.15-04.39.31:967][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.12.15-04.39.32:575][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.12.15-04.39.32:631][  0]LogSlate: Took 0.011423 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.12.15-04.39.32:650][  0]LogSlate: Took 0.011939 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.12.15-04.39.32:785][  0]LogRenderer: Reallocating scene render targets to support 1112x788 Format 9 NumSamples 1 (Frame:1).
+[2020.12.15-04.39.33:032][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.12.15-04.39.33:032][  0]LogLoad: (Engine Initialization) Total time: 29.17 seconds
+[2020.12.15-04.39.33:032][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.12.15-04.39.33:074][  0]LogAssetRegistry: Asset discovery search completed in 11.6277 seconds
+[2020.12.15-04.39.33:077][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.12.15-04.39.33:080][  0]LogContentStreaming: Texture pool size now 600 MB
+[2020.12.15-04.39.34:074][ 99]LogSlate: Took 0.007606 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.15-04.39.38:481][511]LogSlate: Took 0.010555 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.12.15-04.39.38:504][511]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.12.15-04.54.59:742][883]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.15-04.54.59:770][883]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.15-04.54.59:773][883]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 15, 2020, 4:54:59 PM)
+[2020.12.15-04.54.59:774][883]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.12.15-04.54.59:775][883]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.12.15-04.54.59:775][883]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-04.54.59:795][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020103s)
+[2020.12.15-04.54.59:798][883]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.15-04.54.59:799][883]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020208715600), frame # 3883
+[2020.12.15-04.54.59:799][883]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002020E372E80), frame # 3883
+[2020.12.15-04.54.59:799][883]LogPlayLevel: PIE: World Init took: (0.003884s)
+[2020.12.15-04.54.59:800][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024298s)
+[2020.12.15-04.54.59:808][883]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.12.15-04.54.59:813][883]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.15-04.54.59:814][883]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.15-04.54.59:814][883]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.15-04.54.59:814][883]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.15-04.54.59:814][883]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.15-04.54.59:814][883]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.15-04.54.59:814][883]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.15-04.54.59:814][883]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.15-04.54.59:814][883]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.15-04.54.59:814][883]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.15-04.54.59:816][883]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.15-04.54.59:816][883]LogAudioMixer: Display: 1: FrontRight
+[2020.12.15-04.54.59:830][883]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.15-04.54.59:830][883]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.15-04.54.59:830][883]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.15-04.54.59:830][883]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.15-04.54.59:832][883]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.15-04.54.59:844][883]LogInit: FAudioDevice initialized.
+[2020.12.15-04.54.59:853][883]LogLoad: Game class is 'GameModeBase'
+[2020.12.15-04.54.59:857][883]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.12.15-10.54.59
+[2020.12.15-04.54.59:857][883]LogWorld: Bringing up level for play took: 0.002444
+[2020.12.15-04.54.59:857][883]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.12.15-04.54.59:864][883]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.12.15-04.54.59:880][883]PIE: Server logged in
+[2020.12.15-04.54.59:881][883]PIE: Play in editor total start time 0.111 seconds.
+[2020.12.15-04.55.04:434][401]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.55.04:434][401]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-04.55.04:434][401]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-04.55.04:435][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.55.04:447][401]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.15-04.55.04:449][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.55.04:473][401]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.55.04:474][401]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002020E372E80), frame # 4401
+[2020.12.15-04.55.04:474][401]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020208715600), frame # 4401
+[2020.12.15-04.55.04:475][401]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.12.15-04.55.04:524][402]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.12.15-04.55.26:494][140]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.15-04.55.26:514][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.15-04.55.26:514][140]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 15, 2020, 4:55:26 PM)
+[2020.12.15-04.55.26:514][140]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-04.55.26:527][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012487s)
+[2020.12.15-04.55.26:529][140]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.15-04.55.26:529][140]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002020DF1D200), frame # 5140
+[2020.12.15-04.55.26:529][140]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002020E42E0C0), frame # 5140
+[2020.12.15-04.55.26:530][140]LogPlayLevel: PIE: World Init took: (0.003072s)
+[2020.12.15-04.55.26:530][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015851s)
+[2020.12.15-04.55.26:538][140]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2020.12.15-04.55.26:540][140]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.15-04.55.26:540][140]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.15-04.55.26:540][140]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.15-04.55.26:540][140]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.15-04.55.26:540][140]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.15-04.55.26:540][140]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.15-04.55.26:541][140]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.15-04.55.26:541][140]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.15-04.55.26:541][140]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.15-04.55.26:541][140]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.15-04.55.26:543][140]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.15-04.55.26:543][140]LogAudioMixer: Display: 1: FrontRight
+[2020.12.15-04.55.26:555][140]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.15-04.55.26:556][140]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.15-04.55.26:556][140]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.15-04.55.26:556][140]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.15-04.55.26:556][140]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.15-04.55.26:569][140]LogInit: FAudioDevice initialized.
+[2020.12.15-04.55.26:576][140]LogLoad: Game class is 'GameModeBase'
+[2020.12.15-04.55.26:579][140]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.12.15-10.55.26
+[2020.12.15-04.55.26:579][140]LogWorld: Bringing up level for play took: 0.002222
+[2020.12.15-04.55.26:579][140]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.12.15-04.55.26:583][140]PIE: Server logged in
+[2020.12.15-04.55.26:584][140]PIE: Play in editor total start time 0.071 seconds.
+[2020.12.15-04.55.33:923][993]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.55.33:923][993]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-04.55.33:923][993]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-04.55.33:924][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.55.33:935][993]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.15-04.55.33:936][993]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.55.33:945][993]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.55.33:961][993]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002020E42E0C0), frame # 5993
+[2020.12.15-04.55.33:961][993]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002020DF1D200), frame # 5993
+[2020.12.15-04.55.33:962][993]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.12.15-04.55.33:999][994]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.12.15-04.55.38:022][454]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.15-04.55.38:045][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.15-04.55.38:045][454]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 15, 2020, 4:55:38 PM)
+[2020.12.15-04.55.38:045][454]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-04.55.38:057][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012220s)
+[2020.12.15-04.55.38:059][454]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.15-04.55.38:059][454]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020206F36800), frame # 6454
+[2020.12.15-04.55.38:059][454]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002020E42ED40), frame # 6454
+[2020.12.15-04.55.38:060][454]LogPlayLevel: PIE: World Init took: (0.002278s)
+[2020.12.15-04.55.38:060][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.014770s)
+[2020.12.15-04.55.38:072][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.12.15-04.55.38:073][454]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.15-04.55.38:073][454]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.15-04.55.38:073][454]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.15-04.55.38:073][454]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.15-04.55.38:073][454]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.15-04.55.38:073][454]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.15-04.55.38:073][454]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.15-04.55.38:074][454]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.15-04.55.38:074][454]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.15-04.55.38:074][454]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.15-04.55.38:075][454]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.15-04.55.38:075][454]LogAudioMixer: Display: 1: FrontRight
+[2020.12.15-04.55.38:087][454]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.15-04.55.38:088][454]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.15-04.55.38:088][454]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.15-04.55.38:088][454]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.15-04.55.38:088][454]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.15-04.55.38:101][454]LogInit: FAudioDevice initialized.
+[2020.12.15-04.55.38:110][454]LogLoad: Game class is 'GameModeBase'
+[2020.12.15-04.55.38:112][454]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.12.15-10.55.38
+[2020.12.15-04.55.38:112][454]LogWorld: Bringing up level for play took: 0.002067
+[2020.12.15-04.55.38:113][454]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.12.15-04.55.38:117][454]PIE: Server logged in
+[2020.12.15-04.55.38:117][454]PIE: Play in editor total start time 0.073 seconds.
+[2020.12.15-04.55.57:293][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.55.57:293][698]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-04.55.57:293][698]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-04.55.57:294][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.55.57:304][698]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.15-04.55.57:306][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.55.57:315][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.55.57:331][698]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002020E42ED40), frame # 8698
+[2020.12.15-04.55.57:331][698]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020206F36800), frame # 8698
+[2020.12.15-04.55.57:332][698]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.12.15-04.55.57:378][700]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.12.15-04.56.04:746][528]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.12.15-04.56.12:360][368]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameBlueprints/Inventory/PickUps/Seeds/carrotSeeds.carrotSeeds
+[2020.12.15-04.56.12:871][368]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2020.12.15-04.56.15:403][533]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-04.56.15:403][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.56.15:478][533]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameBlueprints/Inventory/PickUps/Seeds/carrotSeeds.carrotSeeds
+[2020.12.15-04.56.15:892][533]LogSlate: Took 0.007582 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.12.15-04.56.18:250][789]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-04.56.18:250][789]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.56.19:187][862]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameBlueprints/Inventory/PickUps/Seeds/AppleSeeds.AppleSeeds
+[2020.12.15-04.56.20:252][941]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-04.56.20:252][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.56.20:822][985]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameBlueprints/Inventory/PickUps/Seeds/Seeds.Seeds
+[2020.12.15-04.56.23:660][260]LogSlate: Took 0.007401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.12.15-04.56.52:895][582]BlueprintLog: New page: Compile Seeds
+[2020.12.15-04.56.52:968][582]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.12.15-04.56.53:563][633]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Seeds4DE59B644EECC194FADE25A671058EFC.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/PickUps/Seeds/Seeds.uasset'
+[2020.12.15-04.56.53:580][633]AssetCheck: New page: Asset Save: Seeds
+[2020.12.15-04.56.53:580][633]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/PickUps/Seeds/Seeds.Seeds
+[2020.12.15-04.56.55:100][811]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-04.56.55:100][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.56.56:698][984]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.12.15-04.56.56:755][984]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMap91625D8F404E1807C777CD8965FBAAEC.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap.umap'
+[2020.12.15-04.56.56:964][984]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMap_BuiltDataB807E0E544990839CE9E7EA683656D9D.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.15-04.56.56:982][984]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.15-04.56.56:982][984]LogContentValidation: Display: Validating World /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.15-04.56.56:982][984]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.15-04.56.57:589][ 53]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.15-04.56.57:610][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.15-04.56.57:610][ 53]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 15, 2020, 4:56:57 PM)
+[2020.12.15-04.56.57:610][ 53]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-04.56.57:625][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014978s)
+[2020.12.15-04.56.57:627][ 53]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.15-04.56.57:627][ 53]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020213B1DE00), frame # 15053
+[2020.12.15-04.56.57:627][ 53]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020299740180), frame # 15053
+[2020.12.15-04.56.57:628][ 53]LogPlayLevel: PIE: World Init took: (0.002810s)
+[2020.12.15-04.56.57:628][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.018104s)
+[2020.12.15-04.56.57:649][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.12.15-04.56.57:650][ 53]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.15-04.56.57:650][ 53]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.15-04.56.57:650][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.15-04.56.57:650][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.15-04.56.57:650][ 53]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.15-04.56.57:650][ 53]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.15-04.56.57:650][ 53]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.15-04.56.57:651][ 53]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.15-04.56.57:651][ 53]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.15-04.56.57:651][ 53]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.15-04.56.57:653][ 53]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.15-04.56.57:653][ 53]LogAudioMixer: Display: 1: FrontRight
+[2020.12.15-04.56.57:666][ 53]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.15-04.56.57:666][ 53]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.15-04.56.57:667][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.15-04.56.57:667][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.15-04.56.57:667][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.15-04.56.57:680][ 53]LogInit: FAudioDevice initialized.
+[2020.12.15-04.56.57:685][ 53]LogLoad: Game class is 'GameModeBase'
+[2020.12.15-04.56.57:688][ 53]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.12.15-10.56.57
+[2020.12.15-04.56.57:688][ 53]LogWorld: Bringing up level for play took: 0.002173
+[2020.12.15-04.56.57:688][ 53]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.12.15-04.56.57:692][ 53]PIE: Server logged in
+[2020.12.15-04.56.57:693][ 53]PIE: Play in editor total start time 0.084 seconds.
+[2020.12.15-04.57.23:493][ 94]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.57.23:493][ 94]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-04.57.23:494][ 94]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-04.57.23:494][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.57.23:503][ 94]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.15-04.57.23:507][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.57.23:523][ 94]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.57.23:539][ 94]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020299740180), frame # 18094
+[2020.12.15-04.57.23:539][ 94]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020213B1DE00), frame # 18094
+[2020.12.15-04.57.23:541][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.12.15-04.57.23:585][ 95]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.12.15-04.57.24:288][174]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.15-04.57.24:310][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.15-04.57.24:310][174]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 15, 2020, 4:57:24 PM)
+[2020.12.15-04.57.24:310][174]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-04.57.24:322][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011941s)
+[2020.12.15-04.57.24:324][174]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.15-04.57.24:324][174]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020213B1FC00), frame # 18174
+[2020.12.15-04.57.24:325][174]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020299748900), frame # 18174
+[2020.12.15-04.57.24:325][174]LogPlayLevel: PIE: World Init took: (0.002873s)
+[2020.12.15-04.57.24:325][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015237s)
+[2020.12.15-04.57.24:343][174]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.12.15-04.57.24:344][174]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.15-04.57.24:344][174]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.15-04.57.24:344][174]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.15-04.57.24:344][174]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.15-04.57.24:344][174]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.15-04.57.24:344][174]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.15-04.57.24:344][174]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.15-04.57.24:344][174]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.15-04.57.24:344][174]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.15-04.57.24:344][174]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.15-04.57.24:346][174]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.15-04.57.24:346][174]LogAudioMixer: Display: 1: FrontRight
+[2020.12.15-04.57.24:358][174]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.15-04.57.24:358][174]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.15-04.57.24:358][174]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.15-04.57.24:358][174]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.15-04.57.24:358][174]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.15-04.57.24:371][174]LogInit: FAudioDevice initialized.
+[2020.12.15-04.57.24:380][174]LogLoad: Game class is 'GameModeBase'
+[2020.12.15-04.57.24:382][174]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.12.15-10.57.24
+[2020.12.15-04.57.24:382][174]LogWorld: Bringing up level for play took: 0.002122
+[2020.12.15-04.57.24:383][174]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.12.15-04.57.24:387][174]PIE: Server logged in
+[2020.12.15-04.57.24:388][174]PIE: Play in editor total start time 0.078 seconds.
+[2020.12.15-04.57.30:493][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.57.30:493][877]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-04.57.30:493][877]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-04.57.30:494][877]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.57.30:501][877]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.15-04.57.30:504][877]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.57.30:535][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.57.30:536][877]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020299748900), frame # 18877
+[2020.12.15-04.57.30:536][877]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020213B1FC00), frame # 18877
+[2020.12.15-04.57.30:538][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.12.15-04.57.30:567][878]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.12.15-04.57.35:795][429]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameBlueprints/Inventory/PlayerInventory.PlayerInventory
+[2020.12.15-04.57.45:693][482]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/PlayerInventory70BCE4804DD58D5292DDC9989429E069.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/PlayerInventory.uasset'
+[2020.12.15-04.57.45:711][482]AssetCheck: New page: Asset Save: PlayerInventory
+[2020.12.15-04.57.45:711][482]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/PlayerInventory.PlayerInventory
+[2020.12.15-04.57.47:349][670]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-04.57.47:349][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.57.48:909][842]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.12.15-04.57.48:945][842]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMap2FDDA73F4F84E918A3CF7EA05201AB2C.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap.umap'
+[2020.12.15-04.57.49:087][842]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMap_BuiltData9F119B11428BC2CA8F0CFE9482C04DB5.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.15-04.57.49:104][842]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.15-04.57.49:104][842]LogContentValidation: Display: Validating World /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.15-04.57.49:104][842]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.15-04.57.49:551][886]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.15-04.57.49:569][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.15-04.57.49:569][886]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 15, 2020, 4:57:49 PM)
+[2020.12.15-04.57.49:570][886]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-04.57.49:584][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014327s)
+[2020.12.15-04.57.49:585][886]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.15-04.57.49:585][886]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020298E51200), frame # 20886
+[2020.12.15-04.57.49:585][886]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002028B5D3B00), frame # 20886
+[2020.12.15-04.57.49:586][886]LogPlayLevel: PIE: World Init took: (0.002014s)
+[2020.12.15-04.57.49:586][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016591s)
+[2020.12.15-04.57.49:603][886]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2020.12.15-04.57.49:605][886]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.15-04.57.49:605][886]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.15-04.57.49:605][886]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.15-04.57.49:605][886]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.15-04.57.49:605][886]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.15-04.57.49:605][886]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.15-04.57.49:605][886]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.15-04.57.49:605][886]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.15-04.57.49:605][886]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.15-04.57.49:605][886]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.15-04.57.49:607][886]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.15-04.57.49:607][886]LogAudioMixer: Display: 1: FrontRight
+[2020.12.15-04.57.49:618][886]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.15-04.57.49:618][886]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.15-04.57.49:619][886]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.15-04.57.49:619][886]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.15-04.57.49:619][886]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.15-04.57.49:632][886]LogInit: FAudioDevice initialized.
+[2020.12.15-04.57.49:642][886]LogLoad: Game class is 'GameModeBase'
+[2020.12.15-04.57.49:644][886]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.12.15-10.57.49
+[2020.12.15-04.57.49:645][886]LogWorld: Bringing up level for play took: 0.002027
+[2020.12.15-04.57.49:645][886]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.12.15-04.57.49:649][886]PIE: Server logged in
+[2020.12.15-04.57.49:649][886]PIE: Play in editor total start time 0.081 seconds.
+[2020.12.15-04.58.18:533][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.58.18:533][260]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-04.58.18:533][260]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-04.58.18:534][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.58.18:542][260]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.15-04.58.18:545][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-04.58.18:561][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-04.58.18:578][260]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002028B5D3B00), frame # 24260
+[2020.12.15-04.58.18:578][260]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020298E51200), frame # 24260
+[2020.12.15-04.58.18:580][260]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.12.15-04.58.18:630][261]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.12.15-04.58.19:416][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2020.12.15-04.58.19:451][342]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMap419D5B0F40A8A3B2402A6498636D7ADC.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap.umap'
+[2020.12.15-04.58.19:590][342]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMap_BuiltData0D9804384602FF1144304CB00473A39F.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.15-04.58.19:608][342]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.15-04.58.19:608][342]LogContentValidation: Display: Validating World /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.15-04.58.19:608][342]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.15-04.58.27:528][266]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameBlueprints/Inventory/Farming/DirtGround.DirtGround
+[2020.12.15-04.59.05:250][578]BlueprintLog: New page: Compile DirtGround
+[2020.12.15-04.59.05:313][578]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2020.12.15-04.59.05:878][629]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/DirtGround1C54C7F34AA205CB1C9D5DB4F2FBE0EE.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Farming/DirtGround.uasset'
+[2020.12.15-04.59.05:894][629]AssetCheck: New page: Asset Save: DirtGround
+[2020.12.15-04.59.05:894][629]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Farming/DirtGround.DirtGround
+[2020.12.15-04.59.22:798][174]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/GameContent/Farming/M_Farming_Mud_Fertilized.M_Farming_Mud_Fertilized
+[2020.12.15-04.59.50:034][250]LogSlate: Window 'Color Picker' being destroyed
+[2020.12.15-05.00.06:907][207]LogSlate: Window 'Color Picker' being destroyed
+[2020.12.15-05.00.09:805][515]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.12.15-05.00.09:814][515]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.12.15-05.00.10:381][515]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.12.15-05.00.10:381][515]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.12.15-05.00.10:661][515]TextureStreamingBuild: Display: Compiling optional shaders took 0.854 seconds.
+[2020.12.15-05.00.10:691][515]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.12.15-05.00.10:703][515]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/M_Farming_Mud_Fertilized92E9974A475C8B391B510BBD6FCDE86E.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameContent/Farming/M_Farming_Mud_Fertilized.uasset'
+[2020.12.15-05.00.10:738][515]AssetCheck: New page: Asset Save: M_Farming_Mud_Fertilized
+[2020.12.15-05.00.10:738][515]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/GameContent/Farming/M_Farming_Mud_Fertilized.M_Farming_Mud_Fertilized
+[2020.12.15-05.00.11:955][653]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-05.00.11:955][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-05.00.23:154][862]BlueprintLog: New page: Compile DirtGround
+[2020.12.15-05.00.23:203][862]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.12.15-05.00.23:658][903]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/DirtGroundB2C58C3C45D3A42BD1D107BEDA032E02.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Farming/DirtGround.uasset'
+[2020.12.15-05.00.23:670][903]AssetCheck: New page: Asset Save: DirtGround
+[2020.12.15-05.00.23:670][903]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Farming/DirtGround.DirtGround
+[2020.12.15-05.00.34:228][108]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameBlueprints/Inventory/Tools/Tools.Tools
+[2020.12.15-05.00.45:038][319]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-05.00.45:038][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-05.00.46:469][471]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameBlueprints/Inventory/Tools/Tools.Tools
+[2020.12.15-05.00.53:769][269]BlueprintLog: New page: Compile Tools
+[2020.12.15-05.00.53:824][269]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.12.15-05.00.54:359][315]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Tools617EFC2A4E80A9DD5A5F5BA7FF8CDFD1.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Tools/Tools.uasset'
+[2020.12.15-05.00.54:370][315]AssetCheck: New page: Asset Save: Tools
+[2020.12.15-05.00.54:370][315]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Tools/Tools.Tools
+[2020.12.15-05.00.58:929][850]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ToolsAFD746C74BFC8DC79A51208D057A726A.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Tools/Tools.uasset'
+[2020.12.15-05.00.58:939][850]AssetCheck: New page: Asset Save: Tools
+[2020.12.15-05.00.58:939][850]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Tools/Tools.Tools
+[2020.12.15-05.01.01:739][167]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/DirtGround761409EF40652412A88EB88BE49892DA.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Farming/DirtGround.uasset'
+[2020.12.15-05.01.01:749][167]AssetCheck: New page: Asset Save: DirtGround
+[2020.12.15-05.01.01:749][167]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Farming/DirtGround.DirtGround
+[2020.12.15-05.01.11:990][380]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ToolsD2314F0C4839D0B9DFD37FBC999ED9B8.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Tools/Tools.uasset'
+[2020.12.15-05.01.12:000][380]AssetCheck: New page: Asset Save: Tools
+[2020.12.15-05.01.12:000][380]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Tools/Tools.Tools
+[2020.12.15-05.01.23:909][760]BlueprintLog: New page: Compile Tools
+[2020.12.15-05.01.23:967][760]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2020.12.15-05.01.24:579][818]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Tools036939EC4CC62EA83BDB69B1AA92A2C1.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Tools/Tools.uasset'
+[2020.12.15-05.01.24:590][818]AssetCheck: New page: Asset Save: Tools
+[2020.12.15-05.01.24:590][818]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Tools/Tools.Tools
+[2020.12.15-05.01.31:988][678]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-05.01.31:988][678]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-05.01.33:525][847]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameBlueprints/Inventory/Tools/HoeWeapon.HoeWeapon
+[2020.12.15-05.02.01:224][823]BlueprintLog: New page: Compile HoeWeapon
+[2020.12.15-05.02.01:264][823]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.12.15-05.02.01:787][872]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/HoeWeapon5082B02447BC1D8922FE9799C5B7179A.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Tools/HoeWeapon.uasset'
+[2020.12.15-05.02.01:804][872]AssetCheck: New page: Asset Save: HoeWeapon
+[2020.12.15-05.02.01:804][872]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Tools/HoeWeapon.HoeWeapon
+[2020.12.15-05.03.38:984][105]LogBlueprint: Error: [Compiler ] Multiple entry pin possibilities. Unable to convert to a function. Make sure that selection either has only 1 entry pin or exactly 1 entry pin has a connection.
+[2020.12.15-05.03.38:984][105]BlueprintLog: New page: Collapse to Function
+[2020.12.15-05.03.38:984][105]BlueprintLog: Error: Multiple entry pin possibilities. Unable to convert to a function. Make sure that selection either has only 1 entry pin or exactly 1 entry pin has a connection.
+[2020.12.15-05.03.44:107][655]LogSlate: Took 0.010782 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.12.15-05.03.47:979][113]LogSlate: Window 'Message Log' being destroyed
+[2020.12.15-05.03.47:987][113]LogSlate: Window 'Message Log' being destroyed
+[2020.12.15-05.04.19:035][795]BlueprintLog: New page: Compile HoeWeapon
+[2020.12.15-05.04.19:078][795]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.12.15-05.04.19:641][851]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/HoeWeapon2F564F544DF18A94F426CAB3D0D8FF4F.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Tools/HoeWeapon.uasset'
+[2020.12.15-05.04.19:651][851]AssetCheck: New page: Asset Save: HoeWeapon
+[2020.12.15-05.04.19:651][851]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Tools/HoeWeapon.HoeWeapon
+[2020.12.15-05.05.08:879][598]LogSlate: Took 0.008589 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.12.15-05.05.23:090][242]BlueprintLog: New page: Compile HoeWeapon
+[2020.12.15-05.05.23:136][242]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.12.15-05.05.23:787][308]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/HoeWeapon157BF1A64B3931F0E2F934AE4114B1BB.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Tools/HoeWeapon.uasset'
+[2020.12.15-05.05.23:798][308]AssetCheck: New page: Asset Save: HoeWeapon
+[2020.12.15-05.05.23:798][308]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Tools/HoeWeapon.HoeWeapon
+[2020.12.15-05.05.41:138][280]LogEditorTransaction: Undo Move Node
+[2020.12.15-05.05.41:437][288]LogEditorTransaction: Undo Create Pin Link
+[2020.12.15-05.05.41:700][297]LogEditorTransaction: Undo Create Pin Link
+[2020.12.15-05.05.42:029][334]LogEditorTransaction: Undo Break Pin Links
+[2020.12.15-05.05.42:350][367]LogEditorTransaction: Undo Move Node
+[2020.12.15-05.05.42:845][424]LogEditorTransaction: Undo Add Node
+[2020.12.15-05.05.45:273][704]BlueprintLog: New page: Compile HoeWeapon
+[2020.12.15-05.05.45:317][704]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.12.15-05.05.45:919][764]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/HoeWeapon7E78B141472843CBD74747A2A650E6B6.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Tools/HoeWeapon.uasset'
+[2020.12.15-05.05.45:931][764]AssetCheck: New page: Asset Save: HoeWeapon
+[2020.12.15-05.05.45:931][764]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Tools/HoeWeapon.HoeWeapon
+[2020.12.15-05.06.10:614][638]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.12.15-05.06.14:280][  7]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/HoeWeaponE052ED2C4EC4822B8BC461B080131023.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Tools/HoeWeapon.uasset'
+[2020.12.15-05.06.14:291][  7]AssetCheck: New page: Asset Save: HoeWeapon
+[2020.12.15-05.06.14:291][  7]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Tools/HoeWeapon.HoeWeapon
+[2020.12.15-05.06.14:719][ 57]BlueprintLog: New page: Compile HoeWeapon
+[2020.12.15-05.06.14:765][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.12.15-05.06.15:375][117]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/HoeWeaponFBDD83234004C580C4A445AAC991C6BC.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Tools/HoeWeapon.uasset'
+[2020.12.15-05.06.15:385][117]AssetCheck: New page: Asset Save: HoeWeapon
+[2020.12.15-05.06.15:385][117]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Tools/HoeWeapon.HoeWeapon
+[2020.12.15-05.06.15:998][188]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameBlueprints/Inventory/PlayerInventory.PlayerInventory
+[2020.12.15-05.06.23:472][969]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_6.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.06.29:742][714]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_8.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.06.37:330][580]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_10.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.06.43:373][262]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_12.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.06.43:383][262]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_14.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.06.46:516][622]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_16.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.06.46:525][622]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_18.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.06.49:478][962]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_20.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.06.49:486][962]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_22.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.06.51:087][146]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_24.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.06.51:096][146]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_26.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.06.55:045][598]LogHttp: Warning: 00000202E452C800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4D73ABB-4056-FD7A-B926-ED9B3267D34E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=4b8824fe48e76dee37d8519cdb7201cf%7C845779d9bd904572b61cf91381b7a44e%7Cb11be707-a163-48ae-8711-72d49d75bf26&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.12.15-05.06.55:045][598]LogHttp: Warning: 00000202E452C800: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2020.12.15-05.06.55:045][598]LogHttp: Warning: 00000202E452C800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x20254c0ff70 [can pipeline])
+[2020.12.15-05.06.55:045][598]LogHttp: Warning: 00000202E452C800: libcurl info message cache 1 (Re-using existing connection! (#8) with host datarouter.ol.epicgames.com)
+[2020.12.15-05.06.55:045][598]LogHttp: Warning: 00000202E452C800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.20.207.130) port 443 (#8))
+[2020.12.15-05.06.55:045][598]LogHttp: Warning: 00000202E452C800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2020.12.15-05.06.55:045][598]LogHttp: Warning: 00000202E452C800: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2020.12.15-05.06.55:045][598]LogHttp: Warning: 00000202E452C800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2020.12.15-05.06.55:046][598]LogHttp: Warning: 00000202E452C800: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2020.12.15-05.06.55:046][598]LogHttp: Warning: 00000202E452C800: libcurl info message cache 7 (Closing connection 8)
+[2020.12.15-05.06.55:046][598]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4D73ABB-4056-FD7A-B926-ED9B3267D34E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=4b8824fe48e76dee37d8519cdb7201cf%7C845779d9bd904572b61cf91381b7a44e%7Cb11be707-a163-48ae-8711-72d49d75bf26&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.12.15-05.06.55:190][614]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_28.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.06.58:037][931]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_30.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.07.08:899][193]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_32.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.07.08:899][193]LogSlate: Window 'Color Picker' being destroyed
+[2020.12.15-05.07.10:133][335]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_34.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.07.11:363][466]BlueprintLog: New page: Compile PlayerInventory
+[2020.12.15-05.07.11:563][466]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2020.12.15-05.07.11:568][466]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_36.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.07.11:586][466]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_38.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.07.11:937][493]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_40.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.07.11:947][493]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_42.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.07.12:071][493]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/PlayerInventoryC019436A42174EF45CF20FA43E8D2448.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/PlayerInventory.uasset'
+[2020.12.15-05.07.12:084][493]AssetCheck: New page: Asset Save: PlayerInventory
+[2020.12.15-05.07.12:084][493]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/PlayerInventory.PlayerInventory
+[2020.12.15-05.07.14:675][781]BlueprintLog: New page: Compile PlayerInventory
+[2020.12.15-05.07.14:790][781]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.12.15-05.07.14:796][781]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_44.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.07.14:812][781]LogActorComponent: RegisterComponentWithWorld: (/Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.DESTROYED_PlayerInventory_C_CHILDACTOR_46.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2020.12.15-05.07.15:368][823]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/PlayerInventoryAE8A43254EE1C95D6A16B2A33E33920E.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/PlayerInventory.uasset'
+[2020.12.15-05.07.15:388][823]AssetCheck: New page: Asset Save: PlayerInventory
+[2020.12.15-05.07.15:388][823]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/PlayerInventory.PlayerInventory
+[2020.12.15-05.07.26:855][115]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.12.15-05.07.34:262][832]BlueprintLog: New page: Compile HoeWeapon
+[2020.12.15-05.07.34:312][832]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2020.12.15-05.07.34:948][890]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/HoeWeapon7A37098149878B65FBE84DBF53C24EE1.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Tools/HoeWeapon.uasset'
+[2020.12.15-05.07.34:959][890]AssetCheck: New page: Asset Save: HoeWeapon
+[2020.12.15-05.07.34:959][890]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Tools/HoeWeapon.HoeWeapon
+[2020.12.15-05.07.36:694][ 82]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/HoeWeaponC2CE8D464D12A1CA97196EA939A1F438.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Tools/HoeWeapon.uasset'
+[2020.12.15-05.07.36:709][ 82]AssetCheck: New page: Asset Save: HoeWeapon
+[2020.12.15-05.07.36:709][ 82]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Tools/HoeWeapon.HoeWeapon
+[2020.12.15-05.08.37:156][ 58]LogSlate: Window 'Color Picker' being destroyed
+[2020.12.15-05.08.38:531][219]BlueprintLog: New page: Compile DirtGround
+[2020.12.15-05.08.38:590][219]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.12.15-05.08.39:242][274]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/DirtGroundA533F3E3458CDF611479A08F638B209F.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Farming/DirtGround.uasset'
+[2020.12.15-05.08.39:255][274]AssetCheck: New page: Asset Save: DirtGround
+[2020.12.15-05.08.39:255][274]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Farming/DirtGround.DirtGround
+[2020.12.15-05.09.03:552][101]BlueprintLog: New page: Compile DirtGround
+[2020.12.15-05.09.03:609][101]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2020.12.15-05.09.04:195][150]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/DirtGroundED5EBAD74A0D52CC5514439CEBD83B2B.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Farming/DirtGround.uasset'
+[2020.12.15-05.09.04:206][150]AssetCheck: New page: Asset Save: DirtGround
+[2020.12.15-05.09.04:207][150]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Farming/DirtGround.DirtGround
+[2020.12.15-05.09.11:534][939]BlueprintLog: New page: Compile DirtGround
+[2020.12.15-05.09.11:592][939]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.12.15-05.09.12:161][987]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/DirtGround8E902F3D469042AB6B9957889985B5EE.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Farming/DirtGround.uasset'
+[2020.12.15-05.09.12:173][987]AssetCheck: New page: Asset Save: DirtGround
+[2020.12.15-05.09.12:173][987]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Farming/DirtGround.DirtGround
+[2020.12.15-05.09.15:448][355]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/DirtGround5D020923423B9B1C6AF1C69FBBA0A852.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Farming/DirtGround.uasset'
+[2020.12.15-05.09.15:460][355]AssetCheck: New page: Asset Save: DirtGround
+[2020.12.15-05.09.15:460][355]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Farming/DirtGround.DirtGround
+[2020.12.15-05.09.24:669][413]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameBlueprints/Inventory/PickUps/Farming/Fertilizer.Fertilizer
+[2020.12.15-05.09.27:112][629]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Fertilizer14C938C94485255A4348B6BB14D0339F.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/PickUps/Farming/Fertilizer.uasset'
+[2020.12.15-05.09.27:122][629]AssetCheck: New page: Asset Save: Fertilizer
+[2020.12.15-05.09.27:122][629]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/PickUps/Farming/Fertilizer.Fertilizer
+[2020.12.15-05.09.28:191][745]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.12.15-05.09.28:242][745]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMap840A5B00477173FE8DC3F9A717B664F8.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap.umap'
+[2020.12.15-05.09.28:393][745]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMap_BuiltData667DAA4144582C8F1CFEB58D66FF5123.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.15-05.09.28:408][745]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.15-05.09.28:408][745]LogContentValidation: Display: Validating World /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.15-05.09.28:408][745]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.15-05.09.40:449][ 97]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GameBlueprints/Inventory/PickUps/Seeds/Seeds.Seeds
+[2020.12.15-05.10.22:724][859]BlueprintLog: New page: Compile Fertilizer
+[2020.12.15-05.10.22:728][859]LogBlueprint: Warning: [Compiler Fertilizer] Could not find a variable named "Index" in 'Fertilizer_C'.
+Make sure 'Fertilizer_C' has been compiled for  Get Index
+[2020.12.15-05.10.22:728][859]LogBlueprint: Warning: [Compiler Fertilizer] Could not find a variable named "Index" in 'Fertilizer_C'.
+Make sure 'Fertilizer_C' has been compiled for  Set Index
+[2020.12.15-05.10.22:728][859]LogBlueprint: Warning: [Compiler Fertilizer] Could not find a variable named "Crop" in 'Fertilizer_C'.
+Make sure 'Fertilizer_C' has been compiled for  Get Crop
+[2020.12.15-05.10.22:729][859]LogBlueprint: Error: [Compiler Fertilizer] The property associated with  Index  could not be found in '/Game/GameBlueprints/Inventory/PickUps/Farming/Fertilizer.Fertilizer_C'
+[2020.12.15-05.10.22:729][859]LogBlueprint: Error: [Compiler Fertilizer] The property associated with  Crop  could not be found in '/Game/GameBlueprints/Inventory/PickUps/Farming/Fertilizer.Fertilizer_C'
+[2020.12.15-05.10.22:729][859]LogBlueprint: Error: [Compiler Fertilizer] The property associated with  Index  could not be found in '/Game/GameBlueprints/Inventory/PickUps/Farming/Fertilizer.Fertilizer_C'
+[2020.12.15-05.10.22:790][859]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.12.15-05.10.23:324][907]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Fertilizer52A7E3964454197329312B8AB0A66625.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/PickUps/Farming/Fertilizer.uasset'
+[2020.12.15-05.10.23:335][907]AssetCheck: New page: Asset Save: Fertilizer
+[2020.12.15-05.10.23:336][907]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/PickUps/Farming/Fertilizer.Fertilizer
+[2020.12.15-05.10.40:475][889]BlueprintLog: New page: Compile Fertilizer
+[2020.12.15-05.10.40:532][889]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2020.12.15-05.11.03:441][503]BlueprintLog: New page: Compile Fertilizer
+[2020.12.15-05.11.03:499][503]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2020.12.15-05.11.04:103][560]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/Fertilizer121C15B341F970E216247FB26DF9C7A3.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/PickUps/Farming/Fertilizer.uasset'
+[2020.12.15-05.11.04:116][560]AssetCheck: New page: Asset Save: Fertilizer
+[2020.12.15-05.11.04:116][560]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/PickUps/Farming/Fertilizer.Fertilizer
+[2020.12.15-05.11.05:155][673]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2020.12.15-05.11.05:190][673]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMap33467F574A98D2E645AED1AFE6E79DBB.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap.umap'
+[2020.12.15-05.11.05:335][673]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMap_BuiltDataB94F02F94F2CDA98CCAA33A60395F903.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.15-05.11.05:352][673]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.15-05.11.05:352][673]LogContentValidation: Display: Validating World /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.15-05.11.05:352][673]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.15-05.11.22:436][638]BlueprintLog: New page: Compile DirtGround
+[2020.12.15-05.11.22:514][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.12.15-05.11.22:988][676]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/DirtGround5D22BDA645BE8ADD898FF09C27A67790.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/Farming/DirtGround.uasset'
+[2020.12.15-05.11.22:998][676]AssetCheck: New page: Asset Save: DirtGround
+[2020.12.15-05.11.22:998][676]LogContentValidation: Display: Validating Blueprint /Game/GameBlueprints/Inventory/Farming/DirtGround.DirtGround
+[2020.12.15-05.11.24:536][841]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-05.11.24:536][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-05.11.25:451][936]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.12.15-05.11.25:451][936]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-05.11.25:451][936]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-05.11.26:248][ 17]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.12.15-05.11.26:248][ 17]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-05.11.26:248][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-05.11.27:137][107]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.12.15-05.11.27:137][107]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-05.11.27:137][107]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-05.11.27:907][191]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.12.15-05.11.27:907][191]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-05.11.27:907][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-05.11.29:985][409]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2020.12.15-05.11.30:022][409]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMap1B56691A4507F6DE870D1B809764B060.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap.umap'
+[2020.12.15-05.11.30:163][409]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMap_BuiltDataDD3196644B205AEB1F2305A08E7F55B3.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.15-05.11.30:176][409]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.15-05.11.30:176][409]LogContentValidation: Display: Validating World /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.15-05.11.30:176][409]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.15-05.11.31:464][551]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.15-05.11.31:488][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.15-05.11.31:488][551]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 15, 2020, 5:11:31 PM)
+[2020.12.15-05.11.31:488][551]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-05.11.31:502][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013207s)
+[2020.12.15-05.11.31:503][551]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.15-05.11.31:503][551]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000202BAF0DA00), frame # 113551
+[2020.12.15-05.11.31:504][551]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000202BEFF65C0), frame # 113551
+[2020.12.15-05.11.31:504][551]LogPlayLevel: PIE: World Init took: (0.002174s)
+[2020.12.15-05.11.31:504][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015907s)
+[2020.12.15-05.11.31:522][551]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.12.15-05.11.31:523][551]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.15-05.11.31:524][551]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.15-05.11.31:524][551]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.15-05.11.31:524][551]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.15-05.11.31:524][551]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.15-05.11.31:524][551]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.15-05.11.31:524][551]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.15-05.11.31:524][551]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.15-05.11.31:524][551]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.15-05.11.31:524][551]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.15-05.11.31:526][551]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.15-05.11.31:526][551]LogAudioMixer: Display: 1: FrontRight
+[2020.12.15-05.11.31:542][551]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.15-05.11.31:542][551]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.15-05.11.31:542][551]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.15-05.11.31:542][551]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.15-05.11.31:543][551]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.15-05.11.31:556][551]LogInit: FAudioDevice initialized.
+[2020.12.15-05.11.31:566][551]LogLoad: Game class is 'GameModeBase'
+[2020.12.15-05.11.31:569][551]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.12.15-11.11.31
+[2020.12.15-05.11.31:569][551]LogWorld: Bringing up level for play took: 0.002250
+[2020.12.15-05.11.31:569][551]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2020.12.15-05.11.31:574][551]PIE: Server logged in
+[2020.12.15-05.11.31:575][551]PIE: Play in editor total start time 0.091 seconds.
+[2020.12.15-05.11.50:948][772]Cmd: DisableAllScreenMessages
+[2020.12.15-05.11.50:956][772]LogEngine: Onscreen warnings/messages are now DISABLED
+[2020.12.15-05.12.28:342][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-05.12.28:342][148]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-05.12.28:342][148]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-05.12.28:343][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-05.12.28:353][148]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.15-05.12.28:357][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-05.12.28:373][148]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-05.12.28:390][148]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000202BEFF65C0), frame # 120148
+[2020.12.15-05.12.28:390][148]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000202BAF0DA00), frame # 120148
+[2020.12.15-05.12.28:400][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.12.15-05.12.28:447][149]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2020.12.15-05.12.29:438][252]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.12.15-05.12.29:475][252]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMapB569D22147C8656774CA5E88448564AC.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap.umap'
+[2020.12.15-05.12.29:618][252]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/ThirdPersonExampleMap_BuiltDataF57144C046073B933C20F786C8863A4A.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2020.12.15-05.12.29:636][252]AssetCheck: New page: Asset Save: multiple assets
+[2020.12.15-05.12.29:636][252]LogContentValidation: Display: Validating World /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2020.12.15-05.12.29:636][252]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2020.12.15-05.12.30:480][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2020.12.15-05.15.33:391][  0]LogHttp: Warning: 000002028AD8A400: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4D73ABB-4056-FD7A-B926-ED9B3267D34E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=4b8824fe48e76dee37d8519cdb7201cf%7C845779d9bd904572b61cf91381b7a44e%7Cb11be707-a163-48ae-8711-72d49d75bf26&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.12.15-05.15.33:391][  0]LogHttp: Warning: 000002028AD8A400: request failed, libcurl error: 28 (Timeout was reached)
+[2020.12.15-05.15.33:391][  0]LogHttp: Warning: 000002028AD8A400: libcurl info message cache 0 (Connection 11 seems to be dead!)
+[2020.12.15-05.15.33:391][  0]LogHttp: Warning: 000002028AD8A400: libcurl info message cache 1 (Closing connection 11)
+[2020.12.15-05.15.33:391][  0]LogHttp: Warning: 000002028AD8A400: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.12.15-05.15.33:391][  0]LogHttp: Warning: 000002028AD8A400: libcurl info message cache 3 (  Trying 52.71.234.78...)
+[2020.12.15-05.15.33:391][  0]LogHttp: Warning: 000002028AD8A400: libcurl info message cache 4 (TCP_NODELAY set)
+[2020.12.15-05.15.33:391][  0]LogHttp: Warning: 000002028AD8A400: libcurl info message cache 5 (Connected to datarouter.ol.epicgames.com (52.71.234.78) port 443 (#12))
+[2020.12.15-05.15.33:391][  0]LogHttp: Warning: 000002028AD8A400: libcurl info message cache 6 (ALPN, offering http/1.1)
+[2020.12.15-05.15.33:391][  0]LogHttp: Warning: 000002028AD8A400: libcurl info message cache 7 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2020.12.15-05.15.33:391][  0]LogHttp: Warning: 000002028AD8A400: libcurl info message cache 8 (SSL re-using session ID)
+[2020.12.15-05.15.33:391][  0]LogHttp: Warning: 000002028AD8A400: libcurl info message cache 9 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2020.12.15-05.15.33:391][  0]LogHttp: Warning: 000002028AD8A400: libcurl info message cache 10 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2020.12.15-05.15.33:391][  0]LogHttp: Warning: 000002028AD8A400: libcurl info message cache 11 (Closing connection 12)
+[2020.12.15-05.15.33:392][  0]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4D73ABB-4056-FD7A-B926-ED9B3267D34E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=4b8824fe48e76dee37d8519cdb7201cf%7C845779d9bd904572b61cf91381b7a44e%7Cb11be707-a163-48ae-8711-72d49d75bf26&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.12.15-05.19.20:478][919]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.15-05.19.20:500][919]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.15-05.19.20:500][919]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 15, 2020, 5:19:20 PM)
+[2020.12.15-05.19.20:500][919]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-05.19.20:518][919]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017904s)
+[2020.12.15-05.19.20:520][919]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.15-05.19.20:520][919]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000202BEB0FE00), frame # 121919
+[2020.12.15-05.19.20:520][919]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000202E85FC7C0), frame # 121919
+[2020.12.15-05.19.20:520][919]LogPlayLevel: PIE: World Init took: (0.002174s)
+[2020.12.15-05.19.20:521][919]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020407s)
+[2020.12.15-05.19.20:543][919]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2020.12.15-05.19.20:545][919]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.15-05.19.20:545][919]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.15-05.19.20:545][919]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.15-05.19.20:545][919]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.15-05.19.20:545][919]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.15-05.19.20:546][919]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.15-05.19.20:546][919]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.15-05.19.20:546][919]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.15-05.19.20:546][919]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.15-05.19.20:546][919]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.15-05.19.20:548][919]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.15-05.19.20:548][919]LogAudioMixer: Display: 1: FrontRight
+[2020.12.15-05.19.20:564][919]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.15-05.19.20:565][919]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.15-05.19.20:565][919]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.15-05.19.20:565][919]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.15-05.19.20:566][919]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.15-05.19.20:584][919]LogInit: FAudioDevice initialized.
+[2020.12.15-05.19.20:592][919]LogLoad: Game class is 'GameModeBase'
+[2020.12.15-05.19.20:594][919]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.12.15-11.19.20
+[2020.12.15-05.19.20:594][919]LogWorld: Bringing up level for play took: 0.002132
+[2020.12.15-05.19.20:594][919]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2020.12.15-05.19.20:599][919]PIE: Server logged in
+[2020.12.15-05.19.20:599][919]PIE: Play in editor total start time 0.101 seconds.
+[2020.12.15-05.19.33:582][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-05.19.33:582][408]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-05.19.33:582][408]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-05.19.33:583][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-05.19.33:593][408]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.15-05.19.33:596][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.15-05.19.33:611][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-05.19.33:628][408]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000202E85FC7C0), frame # 123408
+[2020.12.15-05.19.33:628][408]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000202BEB0FE00), frame # 123408
+[2020.12.15-05.19.33:630][408]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.12.15-05.19.33:661][409]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2020.12.15-05.19.44:460][593]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/GameBlueprints/Inventory/UI/InvSlots.InvSlots
+[2020.12.15-05.20.28:341][468]BlueprintLog: New page: Compile InvSlots
+[2020.12.15-05.20.28:419][468]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2020.12.15-05.20.33:292][571]LogHttp: Warning: 000002030314B200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4D73ABB-4056-FD7A-B926-ED9B3267D34E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=4b8824fe48e76dee37d8519cdb7201cf%7C845779d9bd904572b61cf91381b7a44e%7Cb11be707-a163-48ae-8711-72d49d75bf26&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.12.15-05.20.33:293][571]LogHttp: Warning: 000002030314B200: request failed, libcurl error: 28 (Timeout was reached)
+[2020.12.15-05.20.33:293][571]LogHttp: Warning: 000002030314B200: libcurl info message cache 0 (Connection 14 seems to be dead!)
+[2020.12.15-05.20.33:293][571]LogHttp: Warning: 000002030314B200: libcurl info message cache 1 (Closing connection 14)
+[2020.12.15-05.20.33:293][571]LogHttp: Warning: 000002030314B200: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.12.15-05.20.33:293][571]LogHttp: Warning: 000002030314B200: libcurl info message cache 3 (  Trying 184.72.138.217...)
+[2020.12.15-05.20.33:293][571]LogHttp: Warning: 000002030314B200: libcurl info message cache 4 (TCP_NODELAY set)
+[2020.12.15-05.20.33:293][571]LogHttp: Warning: 000002030314B200: libcurl info message cache 5 (Connected to datarouter.ol.epicgames.com (184.72.138.217) port 443 (#15))
+[2020.12.15-05.20.33:293][571]LogHttp: Warning: 000002030314B200: libcurl info message cache 6 (ALPN, offering http/1.1)
+[2020.12.15-05.20.33:293][571]LogHttp: Warning: 000002030314B200: libcurl info message cache 7 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2020.12.15-05.20.33:293][571]LogHttp: Warning: 000002030314B200: libcurl info message cache 8 (SSL re-using session ID)
+[2020.12.15-05.20.33:293][571]LogHttp: Warning: 000002030314B200: libcurl info message cache 9 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2020.12.15-05.20.33:293][571]LogHttp: Warning: 000002030314B200: libcurl info message cache 10 (Operation timed out after 60000 milliseconds with 0 out of 0 bytes received)
+[2020.12.15-05.20.33:293][571]LogHttp: Warning: 000002030314B200: libcurl info message cache 11 (Closing connection 15)
+[2020.12.15-05.20.33:630][572]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC4D73ABB-4056-FD7A-B926-ED9B3267D34E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=4b8824fe48e76dee37d8519cdb7201cf%7C845779d9bd904572b61cf91381b7a44e%7Cb11be707-a163-48ae-8711-72d49d75bf26&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.12.15-05.21.00:953][752]LogSavePackage: Moving 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Saved/InvSlots754843F84C2D4602CA7546B54D84A434.tmp' to 'D:/GameDev/UnrealProjects/GITHUB/IML/Client/Inv-Farming/Inv_Farm/Content/GameBlueprints/Inventory/UI/InvSlots.uasset'
+[2020.12.15-05.21.00:965][752]AssetCheck: New page: Asset Save: InvSlots
+[2020.12.15-05.21.00:966][752]LogContentValidation: Display: Validating WidgetBlueprint /Game/GameBlueprints/Inventory/UI/InvSlots.InvSlots
+[2020.12.15-05.21.02:193][884]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.15-05.21.02:217][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.15-05.21.02:217][884]PIE: New page: PIE session: ThirdPersonExampleMap (Dec 15, 2020, 5:21:02 PM)
+[2020.12.15-05.21.02:217][884]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-05.21.02:241][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023875s)
+[2020.12.15-05.21.02:243][884]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2020.12.15-05.21.02:243][884]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002028AE3A000), frame # 126884
+[2020.12.15-05.21.02:244][884]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002029436C680), frame # 126884
+[2020.12.15-05.21.02:244][884]LogPlayLevel: PIE: World Init took: (0.002660s)
+[2020.12.15-05.21.02:244][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026872s)
+[2020.12.15-05.21.02:281][884]LogUObjectHash: Compacting FUObjectHashTables data took   5.78ms
+[2020.12.15-05.21.02:283][884]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.15-05.21.02:283][884]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.15-05.21.02:283][884]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.15-05.21.02:283][884]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.15-05.21.02:283][884]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.15-05.21.02:283][884]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.15-05.21.02:283][884]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.15-05.21.02:283][884]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.15-05.21.02:283][884]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.15-05.21.02:283][884]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.15-05.21.02:286][884]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.15-05.21.02:286][884]LogAudioMixer: Display: 1: FrontRight
+[2020.12.15-05.21.02:302][884]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.12.15-05.21.02:302][884]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.15-05.21.02:302][884]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.15-05.21.02:302][884]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.15-05.21.02:303][884]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.15-05.21.02:319][884]LogInit: FAudioDevice initialized.
+[2020.12.15-05.21.02:330][884]LogLoad: Game class is 'GameModeBase'
+[2020.12.15-05.21.02:332][884]LogWorld: Bringing World /Game/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2020.12.15-11.21.02
+[2020.12.15-05.21.02:332][884]LogWorld: Bringing up level for play took: 0.002262
+[2020.12.15-05.21.02:332][884]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2020.12.15-05.21.02:336][884]PIE: Server logged in
+[2020.12.15-05.21.02:337][884]PIE: Play in editor total start time 0.12 seconds.
+[2020.12.15-05.21.26:832][581]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.15-05.21.26:832][581]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2020.12.15-05.21.26:832][581]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.12.15-05.21.26:833][581]LogOutputDevice: Warning: 
+
+Script Stack (6 frames):
+InvList_C.ExecuteUbergraph_InvList
+InvList_C.Refresh List
+ItemWindow_C.ExecuteUbergraph_ItemWindow
+ItemWindow_C.Refresh
+PlayerInventory_C.ExecuteUbergraph_PlayerInventory
+PlayerInventory_C.BndEvt__Sphere_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature
+
+[2020.12.15-05.21.27:333][581]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.500 s
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: === Handled ensure: ===
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: 
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: Ensure condition failed: !World->bIsTearingDown [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/UMG/Private/UserWidget.cpp] [Line: 2173]
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: Widget Class InvSlots_C - Attempting to be created while tearing down the world 'ThirdPersonExampleMap'
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: Stack: 
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff95733b045 UE4Editor-UMG.dll!UnknownFunction []
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff9571ee974 UE4Editor-UMG.dll!UnknownFunction []
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff9571f045f UE4Editor-UMG.dll!UnknownFunction []
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff957159215 UE4Editor-UMG.dll!UnknownFunction []
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff9571ea703 UE4Editor-UMG.dll!UnknownFunction []
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff9572e19ba UE4Editor-UMG.dll!UnknownFunction []
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff964790b34 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff9649e00ad UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff964a030e3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff964a2ce4f UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff964a0571d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff9649d3bba UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff964a05362 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff964a0571d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff9649d3bba UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff964a05362 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff964a030e3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:333][581]LogOutputDevice: Error: [Callstack] 0x00007ff964a0571d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff9649d3bba UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff964a05362 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff964a0571d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff9649d3bba UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff964a05362 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff964a030e3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff964a0571d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff9649d3bba UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff964a05362 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff964a0571d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff964a04c24 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff964790b34 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff964a04753 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff96063afe5 UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff9605e0f0b UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff960a2801e UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff960609985 UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff960e8dc56 UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff960a22768 UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff9609c066f UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff9609ffc6e UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff9606554b2 UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff960e8695b UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff96186a8e0 UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff961869bc5 UE4Editor-Engine.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff958696e22 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff95865ba0e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff95811bce5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff9589f37e6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff751e67800 UE4Editor.exe!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff751e7ba7c UE4Editor.exe!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff751e7bb5a UE4Editor.exe!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff751e8e31d UE4Editor.exe!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff751e9145a UE4Editor.exe!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff9b7547034 KERNEL32.DLL!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: [Callstack] 0x00007ff9b793d0d1 ntdll.dll!UnknownFunction []
+[2020.12.15-05.21.27:334][581]LogOutputDevice: Error: 
